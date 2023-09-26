@@ -1,0 +1,86 @@
+.container {
+    width: 90%;
+    max-width: 120rem;
+    margin: 10rem auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    @include respond(tablet) {
+        display: block;
+    }
+
+    &-left {
+
+        @include respond(tablet) {
+            width: 100%;
+        }
+
+        &-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-gap: 2rem;
+
+            @include respond(tablet) {
+
+                display: block;
+                grid-template-columns: 1fr;
+            }
+        }
+
+        &-each {
+            @include respond(tablet) {
+                margin-top: -1rem;
+                border-radius: 0;
+                padding-bottom: 2rem;
+
+                &:nth-child(1) {
+                    border-top-left-radius: 1.1rem;
+                    border-top-right-radius: 1.1rem;
+                }
+
+                &:nth-child(5) {
+                    border-bottom-left-radius: 1.1rem;
+                    border-bottom-right-radius: 1.1rem;
+
+                    padding-bottom: 1rem;
+                }
+                    text-align: center;
+                
+            }
+
+            &:nth-child(1),
+            &:nth-child(4),
+            &:nth-child(5) {
+                color: $colorTertiaryGradient1;
+                background-image: linear-gradient(to right bottom, #5278DD, #16014B);
+            }
+            &:nth-child(5){
+                grid-column: span 2;
+                
+                background-image: linear-gradient(to right bottom, #F45A5A, #45038F,#5278DD, #16014B);
+            }
+            
+
+            padding:1rem 2rem;
+            border-radius: 1.1rem;
+            box-shadow: 0 0 1rem .5rem rgba(0, 0, 0, 0.1);
+
+
+            color: $colorTertiaryGradient1;
+            background-image: linear-gradient(to right bottom, #F45A5A, #45038F);
+        }
+
+        font-size: 2rem;
+        width: 45%;
+    }
+
+    &-venue {
+        @include respond(tablet) {
+            width: 100%;
+            margin: 4rem auto;
+        }
+
+        width: 45%;
+    }
+}

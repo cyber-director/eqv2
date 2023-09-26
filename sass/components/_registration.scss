@@ -1,0 +1,41 @@
+.registration {
+    max-width: 70rem;
+    width: 90%;
+    padding: 2rem;
+    border-radius: 2rem;
+    color: #fff;
+    background-image: linear-gradient(to right, #D60270, #9B4F96, #0038A8);
+    margin: 4rem auto;
+    box-shadow: 0 0 2rem rgba(0, 0, 0, 0.5);
+
+    &-data {
+        h1 {
+            font-size: 4rem;
+        }
+
+        &-members {
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 1rem;
+            border-radius: .5rem;
+
+            &-each {
+                display: flex;
+
+                p {
+                    color: #000;
+                    font-size: 1.7rem;
+                    margin: 1rem 2rem;
+                }
+            }
+        }
+
+        h4 {
+            font-size: 2rem;
+        }
+
+    }
+
+    p {
+        font-size: 1.4rem;
+    }
+}

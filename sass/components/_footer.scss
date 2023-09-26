@@ -1,0 +1,56 @@
+.footer {
+    width: calc(100vw - 8rem);
+    padding: 4rem;
+    font-size: 1.4rem;
+    color: $colorTertiaryGradient1;
+    background-color: black;
+    text-align: center;
+
+    &-link {
+        color: #fff !important;
+        font-size: 1.4rem !important;
+        text-decoration: none !important;
+        margin: 0 3rem 0 0 !important; 
+        cursor: pointer;
+        transition: all 0.3s;
+        &:hover{
+            // font-size: 1.45rem !important;
+            text-decoration: underline !important;
+        }
+    }
+
+    @include respond(tablet) {
+        padding: 4rem 1rem;
+        ;
+        width: calc(100vw - 2rem);
+    }
+
+    &-container {
+        display: grid;
+        max-width: 70rem;
+
+        @include respond(tablet) {
+            display: block;
+            width: 100%;
+
+            div {
+
+                text-align: center;
+                margin-top: 2rem;
+            }
+
+            h4 {
+
+                text-align: center;
+                display: block;
+                justify-content: center;
+            }
+        }
+
+        width: 80%;
+        margin: 0 auto;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        text-align: left;
+    }
+}

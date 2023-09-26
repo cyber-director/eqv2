@@ -1,0 +1,182 @@
+.admin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+    &-header {
+        h1 {
+            font-size: 4rem;
+        }
+
+    }
+
+    &-registration {
+        overflow: auto;
+        background-color: rgba(0, 0, 0, 0.8);
+
+        &-members {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-gap: .5rem;
+        }
+
+        &-header {
+            &:not(&:last-child) {
+                margin-bottom: 1rem;
+                padding-bottom: .5rem;
+                border-bottom: #fff 1px solid;
+            }
+        }
+
+        cursor: pointer;
+        border-radius: 2rem;
+        padding:2rem;
+        margin: 2rem 0;
+        box-shadow: 0 0 1rem rgba(#fff, 0.4);
+    }
+    &-emails{
+        // display: ;
+        white-space: nowrap;
+        // height: 3rem;
+        padding: 1rem;;
+        background-color: rgba(#000, 0.5);
+        overflow: auto;
+        width: 100%;
+        max-width: 50rem;
+        // overflow: hidden;
+    }
+    &-container {
+        overflow: auto;
+        padding: 4rem;
+
+        &-inner {
+            &-each {
+                p{
+                    font-size: 1.4rem;
+                }
+
+                h2 {
+                    font-size: 2.1rem;
+                    padding-bottom: 2rem;
+                    border-bottom: 1px solid #fff;
+                }
+
+                color: #fff;
+                box-shadow: 0 0 1rem rgba(0, 0, 0, 0.5);
+                padding:2rem;
+                border-radius: 2rem;
+
+                &:nth-child(1) {
+                    background-image: linear-gradient(to bottom right, #0655F3, #6206F3);
+                }
+
+                &:nth-child(2) {
+                    background-image: linear-gradient(to bottom right, #F30625, #6206F3);
+                }
+
+                &:nth-child(3) {
+                    background-image: linear-gradient(to bottom right, #859D04, #1D3714);
+                }
+
+                &:nth-child(4) {
+                    background-image: linear-gradient(to bottom right, #9D047B, #046A9D);
+                }
+
+                &:nth-child(5) {
+                    background-image: linear-gradient(to bottom right, #F65209, #09F674);
+                }
+
+                &:nth-child(6) {
+                    background-image: linear-gradient(to bottom right, #1192B9, #C8CE07);
+                }
+            }
+
+
+            @media (max-width: 1500px) {
+                grid-template-columns: 1fr 1fr;
+            }
+
+            @include respond(tablet) {
+                justify-content: center;
+                grid-template-columns: 1fr;
+            }
+
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-gap: 10rem;
+
+        }
+    }
+
+    &-registrations {
+
+        &-container {
+
+            border-radius: 2rem;
+            padding: 1rem;
+            box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+        }
+
+        margin-top: 1rem;
+        font-size: 1.4rem;
+        overflow: auto;
+        padding: 1rem;
+        min-height: 30rem;
+        max-height: 70vh;
+    }
+
+    &-form {
+        display: flex;
+        max-width: 40rem;
+        align-items: center;
+        margin: 3rem;
+
+        h1 {
+            font-size: 2.4rem;
+            text-align: center;
+            margin: 4rem auto;
+        }
+
+        input {
+            width: calc(100% - 2rem);
+            margin: 2rem;
+            font-size: 2rem;
+            padding: 2rem 1rem;
+            outline: none;
+            box-shadow: 0 0 1rem rgba(#000, 0.5);
+            border-radius: 1rem;
+            border: 1px solid rgba(#000, 0.5);
+        }
+
+        button {
+            margin-top: 2rem;
+            background-color: #000;
+
+            p {
+                margin: .25rem 0 0;
+            }
+
+            display: flex;
+            height: 5rem;
+            transition: all 0.3s;
+            align-items: center;
+            justify-content: center;
+            border-radius: 1rem;
+            cursor: pointer;
+            color: #fff;
+            font-size: 2rem;
+            text-transform: uppercase;
+            padding: 1rem;
+        }
+
+        img {
+            height: 20rem;
+            object-fit: cover;
+            border-radius: 100%;
+            width: 20rem;
+        }
+
+        flex-direction: column;
+    }
+}

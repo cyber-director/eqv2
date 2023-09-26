@@ -1,0 +1,22 @@
+html {
+    font-size: 10px;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: 'Share Tech Mono', monospace;
+    padding: 0;
+    overflow-x: hidden
+}
+
+* {
+    &::-webkit-scrollbar {
+        width: 1rem;
+        &-thumb{
+            background-color: black;
+        }
+    }
+    
+}
