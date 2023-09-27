@@ -24,7 +24,8 @@ const Handler = async (req, res) => {
         await connect();
         if (req.method === "POST") {
 
-            return res.status(400).json({error:"Registrations have been closed"})
+            // Un-comment When registerations closed
+            // return res.status(400).json({error:"Registrations have been closed"})
             switch (event) {
                 case "Esprit Decode":
                     if (members.length !== 2) {
@@ -34,11 +35,21 @@ const Handler = async (req, res) => {
                     }
                     break;
                 case "Parabellum":
-                    return res.status(400).json({error:"Registratios for the Parabellum event have been closed"})
+                    // return res.status(400).json({error:"Registratios for the Parabellum event have been closed"})
+                    if (members.length !== 6) {
+                        return res.status(400).json({
+                            error: "Parabellum requires exactly 6 members"
+                        })
+                    }
                     break;
                 case "Photo Perfecta":
                     
-                    return res.status(400).json({error:"Registratios for the Photo Perfecta event have been closed"})
+                    // return res.status(400).json({error:"Registratios for the Photo Perfecta event have been closed"})
+                    if (members.length !== 1) {
+                        return res.status(400).json({
+                            error: "Parabellum requires exactly 1 member"
+                        })
+                    }
                     break;
                 case "Filmskaping":
                     if (members.length !== 2) {

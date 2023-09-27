@@ -9,6 +9,7 @@ const mailJet = new MailJet({
     apiKey: process.env.mailJetApi,
     apiSecret: process.env.mailJetSecret,
 });
+console.log("MailJet connected")
 
 
 export const contactEmail = async (n, email, message) => {
@@ -49,7 +50,7 @@ export const verifyEmail = async (member, registration, id, e) => {
         .request({
             Messages: [{
                 From: {
-                    Email: "shresth21oct@gmail.com",
+                    Email: "683@student.dpskolar.org",
                     Name: `Extra Quadrata`,
                 },
                 To: [{
@@ -71,7 +72,7 @@ export const cancelRegistration = async (member, e) => {
     .request({
         Messages: [{
             From: {
-                Email: "shresth21oct@gmail.com",
+                Email: "683@student.dpskolar.org",
                 Name: `Extra Quadrata`,
             },
             To: [{
@@ -93,7 +94,7 @@ export const checkRegistration = async (member, registration, e) => {
         .request({
             Messages: [{
                 From: {
-                    Email: "shresth21oct@gmail.com",
+                    Email: "683@student.dpskolar.org",
                     Name: `Extra Quadrata`,
                 },
                 To: [{

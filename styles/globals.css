@@ -167,6 +167,9 @@ html {
   scroll-behavior: smooth;
 }
 
+:root {
+  --primary: var(#6BD7DB)
+}
 body {
   margin: 0;
   font-family: "Share Tech Mono", monospace;
@@ -619,6 +622,7 @@ body {
 }
 .register-dropdown {
   background-color: #fff;
+  color: black;
   box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.5);
   border-radius: 0.76rem;
   padding: 2rem;
