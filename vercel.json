@@ -1,7 +1,0 @@
-{
-  "functions": {
-    "/api/admin/index.js": {
-      "maxDuration": 10
-    }
-  }
-}
