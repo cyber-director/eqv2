@@ -320,12 +320,13 @@ body {
   padding: 1.75rem 1.5rem;
   font-size: 1.8rem;
   border-radius: 0.5rem;
-  background-image: linear-gradient(to right, rgba(248, 248, 248, 0.6), rgba(229, 232, 232, 0.9));
+  background-color: rgba(229, 232, 232, 0.9);
 }
 .header-link:hover {
-  box-shadow: 1rem 1rem rgba(0, 0, 0, 0.7);
-  background: rgba(0, 255, 0, 0.75);
-  transform: scale(1.005);
+  /* box-shadow: 1rem 1rem rgba(0, 0, 0, 0.7); */
+  background-color: rgba(0, 0, 0, 0.75);
+  color: rgba(0, 255, 0, 0.75);
+  border: 1px solid rgba(0, 255, 0, 0.75);
 }
 .header-link-icon {
   font-size: 2rem !important;
@@ -1061,7 +1062,7 @@ body {
   padding: 2rem;
   box-shadow: 0rem 0rem 1rem 0 rgba(0, 0, 0, 1);
   transition: all 0.3s;
-  /* border-radius: 0.5rem; */
+  border-radius: 0.5rem;
   cursor: pointer;
   color: #000;
   text-decoration: none;
@@ -1073,14 +1074,14 @@ body {
   }
 }
 .cta-register span:nth-child(2) {
-  background: #92FE45;
+  background: #3540bd;
 }
 .cta-register span:first-child {
-  background: #27B32A;
+  background: #3540bd;
   /* background-image: linear-gradient(to right bottom, #27B32A, #92FE45); */
 }
 .cta-register span:last-child {
-  background: #27B32A;
+  background: #3540bd;
   /* background-image: linear-gradient(to right bottom, #27B32A, #92FE45); */
 }
 .cta-register span:hover {
