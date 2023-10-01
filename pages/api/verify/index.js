@@ -34,7 +34,7 @@ const Handler = async (req, res) => {
                     $in: [user._id]
                 }
             });
-            console.log(team);
+            console.log('verify: '+ team);
             const registration = await Registration.findOne({
                 team: team._id
             })

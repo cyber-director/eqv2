@@ -8,7 +8,7 @@ const registrationSchema = new mongoose.Schema({
     },
     status: {
         type: String,
-        enums: ['Pending', 'Accepted', 'Rejected'],
+        enums: ['Pending', 'Accepted', 'Approved', 'Rejected'],
         default: "Pending"
     },
     team: {

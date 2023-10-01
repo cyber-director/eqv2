@@ -102,7 +102,7 @@ const InfoSection = () => {
         The topic of the event will be Declared on the spot
         `,
         short: "Site Incroyable is a Web Development event where we test participants' masterships to create fast, efficient, optimized, and spellbinding websites. Web development languages are among the most aspired after programming skill sets, with JavaScript currently in the lead as a growing number of conventional applications move to web platforms. Web design encompasses many different skills and domains in the exhibition and supervision of websites, from ingenious design and scripting. Accessibility remains a rudimentary of any website development project, transpiring that websites are accessible by anyone, on any device, anywhere in the world.",
-        venue: "AI Lab",
+        venue: "Onlin",
         timing: 'The event will last for approximately 3 hours',
         tps: 1,
         participants: 2

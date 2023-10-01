@@ -1,7 +1,7 @@
 
 import Brochure from './brochure'
 const Venue = () => {
-    let m = { "Offline events will be held on": "Wednesday, 16th November, 2022", "Online events will start on": "Sunday, 13th November, 2022", "Results will be declared on": "Wednesday, 16th of November, 2022", "The registrations for all events have been": "Closed", "The total monetary value of prizes that will be awarded across all 6 events is": "Over ₹10,000" };
+    let m = { "Offline events will be held on": "Wednesday, 16th November, 2022", "Online events will start on": "Sunday, 13th November, 2022", "Results will be declared on": "Wednesday, 16th of November, 2022", "The registrations for all events open til": "Wednesday, 15th November, 2023", "The total monetary value of prizes that will be awarded across all 6 events is": "Over ₹10,000" };
     let keys = Object.keys(m);
     return (
         <div className="container">
