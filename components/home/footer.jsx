@@ -9,7 +9,7 @@ const Footer = (props) => {
         <div className="footer-container">
             <div className="footer-container-left">
                 All Rights Reserved
-                <br /> © DPS Kolar Technoclub 2022
+                <br /> © DPS Kolar Technoclub 2023
             </div>
             <div className="footer-container-right">
                 <div>
@@ -20,18 +20,16 @@ const Footer = (props) => {
                 </div>
                 <h4>Find us on</h4>
                 <div style={{display: 'flex', alignItems:'center'}}>
-                    <a href="https://discord.com/invite/UXhPCPRpvu" target="__blank__">
+                    <a href="https://discord.gg/bJEpRPnnEx" target="__blank__">
                         <img src="/icon_clyde_white_RGB.png" style={{width:'2rem'}}/>
                     </a>
 
                     <a target="__blank__" href="https://www.instagram.com/extraquadrata/"><InstagramIcon style={{ color: "#fff", fontSize: "2rem", marginLeft: "1.4rem" }} /></a>
                 </div>
 
-                <h4 style={{ display: 'flex', alignItems: 'center' }}>Check out our codebase on <a href='https://github.com/Delhi-Public-School-Kolar-Road-Bhopal'><GitHub style={{ color: "#fff", fontSize: "2rem", marginLeft: "1.4rem" }} /></a></h4>
-
+                {/* <h4 style={{ display: 'flex', alignItems: 'center' }}>Check out our codebase on <a href='https://github.com/Delhi-Public-School-Kolar-Road-Bhopal'><GitHub style={{ color: "#fff", fontSize: "2rem", marginLeft: "1.4rem" }} /></a></h4> */}
             </div>
         </div>
-
     </div>)
 }
 

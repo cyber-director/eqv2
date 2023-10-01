@@ -427,7 +427,7 @@ body {
   border-radius: 0.7rem;
   box-shadow: 0.7rem 0.7rem 0.1rem #23465fe3;
   color: #1c1c1c;
-  background: #6daedb ;
+  background: #3c8dc5;
 }
 @media (max-width: 768px) {
   .container-left-each {
@@ -448,12 +448,12 @@ body {
 }
 .container-left-each:nth-child(1), .container-left-each:nth-child(4), .container-left-each:nth-child(5) {
   color: #1c1c1c;
-  background: #6daedb;
+  background: #3c8dc5;
 }
 .container-left-each:nth-child(5) {
   grid-column: span 2;
   background: linear-gradient(to right bottom, #45038F, #5278DD);
-  background: #6daedb;
+  background: #3c8dc5;
   /* background-image: linear-gradient(to right bottom, #F45A5A, #45038F, #5278DD, #16014B); */
 }
 .container-venue {
@@ -1176,7 +1176,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7));
+  background-image: url('/peakpx.jpg');
 }
 @media (max-width: 768px) {
   .about-video {
@@ -1226,7 +1226,7 @@ body {
   display: grid;
   align-items: flex-start;
   grid-template-columns: repeat(6, 1fr);
-  grid-gap: 3rem;
+  grid-gap: 1rem;
 }
 @media (max-width: 1500px) {
   .about-organizers-sub {
@@ -1294,16 +1294,16 @@ body {
   object-fit: cover;
 }
 .about-organizers-each:nth-child(4n-3) {
-  background-image: linear-gradient(to bottom right, #348F50, #0ABFBC);
+  background-image: linear-gradient(to bottom right, #194592, #0e316d);
 }
 .about-organizers-each:nth-child(4n-2) {
-  background-image: linear-gradient(to bottom right, #5C258D, #4389A2);
+  background-image: linear-gradient(to bottom right, #345080, #223b66);
 }
 .about-organizers-each:nth-child(4n-1) {
-  background-image: linear-gradient(to bottom right, #5f2c82, #49a09d);
+  background-image: linear-gradient(to bottom right, #1c3c75, #263e68);
 }
 .about-organizers-each:nth-child(4n) {
-  background-image: linear-gradient(to bottom right, #D60270, #9B4F96, #0038A8);
+  background-image: linear-gradient(to bottom right, #416fbd, #193c7a);
 }
 .about-organizers-each-header {
   padding: 2rem;
