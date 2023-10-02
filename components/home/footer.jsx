@@ -1,10 +1,8 @@
-import TwitterIcon from '@mui/icons-material/Twitter';
-import FacebookIcon from '@mui/icons-material/Facebook';
+/* eslint-disable @next/next/no-img-element */
 import InstagramIcon from '@mui/icons-material/Instagram';
-import Link from 'next/link'
-import { GitHub } from '@mui/icons-material';
+import Link from 'next/link';
 
-const Footer = (props) => {
+const Footer = () => {
     return (<div className="footer">
         <div className="footer-container">
             <div className="footer-container-left">
@@ -19,15 +17,14 @@ const Footer = (props) => {
                     <Link className='footer-link' href="/contact"><span className='footer-link'>Contact us</span></Link>
                 </div>
                 <h4>Find us on</h4>
-                <div style={{display: 'flex', alignItems:'center'}}>
+                <div style={{ display: 'flex', alignItems: 'center' }}>
                     <a href="https://discord.gg/bJEpRPnnEx" target="__blank__">
-                        <img src="/icon_clyde_white_RGB.png" style={{width:'2rem'}}/>
+                        <img src="/icon_clyde_white_RGB.png" alt="clyde-discord" style={{ width: '2rem' }} />
                     </a>
 
                     <a target="__blank__" href="https://www.instagram.com/extraquadrata/"><InstagramIcon style={{ color: "#fff", fontSize: "2rem", marginLeft: "1.4rem" }} /></a>
                 </div>
 
-                {/* <h4 style={{ display: 'flex', alignItems: 'center' }}>Check out our codebase on <a href='https://github.com/Delhi-Public-School-Kolar-Road-Bhopal'><GitHub style={{ color: "#fff", fontSize: "2rem", marginLeft: "1.4rem" }} /></a></h4> */}
             </div>
         </div>
     </div>)
