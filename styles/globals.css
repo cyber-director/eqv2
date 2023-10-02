@@ -1168,6 +1168,7 @@ body {
   display: flex;
   justify-content: space-between;
   overflow: hidden;
+  background: url('/peakpx.png');
 }
 @media (max-width: 768px) {
   .about {

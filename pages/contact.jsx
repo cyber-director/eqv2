@@ -6,18 +6,18 @@ const Register = () => {
         email: '',
         message: '',
         submitted: false,
-        error:""
+        error: ""
     })
     const onSubmit = async (e) => {
         try {
             e.preventDefault()
-            if(!state.name>0 || !state.email>0 || !state.message>0){
-                setState(state=> ({ ...state, error:"Please fill all the fields"}))
+            if (!state.name > 0 || !state.email > 0 || !state.message > 0) {
+                setState(state => ({ ...state, error: "Please fill all the fields" }))
                 return;
             }
-            
+
             await axios.post('/api/contact', state)
-            setState(state=>({...state, submitted: true}))
+            setState(state => ({ ...state, submitted: true }))
         }
         catch (err) {
             console.log(err);
@@ -27,11 +27,10 @@ const Register = () => {
         <div className="register">
             <div className="register-header">
                 <h1>Leave us a message!</h1>
-                
-            <div className='register-header-blur'></div>
-                <video src='cover.mp4' autoPlay={true} loop={true} muted={true} className="register-header-video" />
+
+                <div className='register-header-blur'></div>
             </div>
-            {state.submitted ? <div className="register-body">Your message has successfully been sent to us. We will reply back as soon as possible</div>:
+            {state.submitted ? <div className="register-body">Your message has successfully been sent to us. We will reply back as soon as possible</div> :
                 <div className="register-body">
                     <form onSubmit={onSubmit} className="register-form">
                         <div className="register-input">
@@ -50,7 +49,7 @@ const Register = () => {
                             <p>Message</p>
                             <div className="register-input-textarea">
 
-                                <textarea minLength={10}   disabled={state.submitted} onChange={(e) => {
+                                <textarea minLength={10} disabled={state.submitted} onChange={(e) => {
                                     setState({ ...state, message: e.target.value });
                                 }} value={state.message} placeholder="message..." />
 
