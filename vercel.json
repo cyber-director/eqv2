@@ -2,6 +2,9 @@
   "functions": {
     "pages/api/admin": {
       "maxDuration": 10
+    },
+    "pages/api/register": {
+      "maxDuration": 10
     }
   }
 }
