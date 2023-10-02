@@ -38,7 +38,7 @@ const Register = () => {
                 <h1>Register</h1>
                 
                 <div className='register-header-blur'></div>
-                <video src='/cover.mp4' autoPlay={true} loop={true} muted={true} className="register-header-video" />
+                {/* <video src='/cover.mp4' autoPlay={true} loop={true} muted={true} className="register-header-video" /> */}
             </div>
             <div className="register-home">
                 <h2>Which event do you want to register for?</h2>

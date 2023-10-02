@@ -32,7 +32,7 @@ const Register = () => {
                 <h1>Register for Filmskaping</h1>
                 
                 <div className='register-header-blur'></div>
-                <video src='/cover.mp4' autoPlay={true} loop={true} muted={true} className="register-header-video" />
+                {/* <video src='/cover.mp4' autoPlay={true} loop={true} muted={true} className="register-header-video" /> */}
             </div>
             <div className="register-body">
                 <form className="register-form"  onSubmit={async (e) => {
