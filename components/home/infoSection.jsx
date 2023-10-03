@@ -55,6 +55,7 @@ const InfoSection = () => {
         Coaches are not allowed
         `,
         venue: "Online",
+        class: "8-12",
         short: "E-sports is now as mainstream as physical sports. Being one the most popular competitive games on this planet, Valorant is the game that this event will use to test your skills and your team's coordination.",
         timing: "As per the Brackets",
         tps: 1,
@@ -75,6 +76,7 @@ const InfoSection = () => {
         venue: "School Premises and Middle Computer Lab",
         short: "Visual forms of art dominates the world today, film making is everywhere, the world is filled with art -  the art of capturing the world and telling a story through a simple lens but conveying so much more, the art of expressing complex emotions and feelings from the simplest of objects .This event asses the ability to capture the externalities of the world  through visual media. Filmskaping will need creativity and imagination, a keen eye for details and a critical mind. This competition will also test the the participant’s knowledge and competence in technical skills like video and sound editing, and cinematography.",
         timing: 'The event will last for approximately 2 hours and 30 minutes, without accounting for breaks',
+        class: "6-12",
         tps: 1,
         participants: 2
     },
@@ -88,8 +90,31 @@ const InfoSection = () => {
         Participants to prepare current affairs and general awareness related to IT, history of companies, and  their products
         `,
         short: "Quizzing is an art form for people who find solace in perpetually striving to attain more knowledge about everything. The Scio Quiz tests a person's level of knowledge about current affairs and general awareness related to IT, the history of companies, and their products. Along with that, it further challenges participants by adding another layer of complexity: teamwork. Along with being well-informed, to succeed in this event, participants ought to have a strong command of communication and coordination ",
+        class: "8-12",
         venue: "Magnum Opus",
         timing: 'The event will last for approximately 3 hours',
+        tps: 1,
+        participants: 2
+    },
+    {
+        name: 'Minecraft PvP',
+        liveVideo: '/minecraft.mp4',
+        description: `Lorem ipsum dolor sit amet. qui minim labore adipisicing minim sint cillum sint consectetur cupidatat. Lorem ipsum dolor sit amet. qui minim labore adipisicing minim sint cillum sint consectetur cupidatat. Lorem ipsum dolor sit amet. qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.`,
+        short: "Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehenderit enim labore culpa sint ad nisi Lorem pariatur mollit ex esse exercitation amet. Nisi anim cupidatat excepteur officia. Reprehenderit nostrud nostrud ipsum Lorem est aliquip amet voluptate voluptate dolor minim nulla est proident. Nostrud officia pariatur ut officia. Sit irure elit esse ea nulla sunt ex occaecat reprehenderit commodo officia dolor Lorem duis laboris cupidatat officia voluptate. Culpa proident adipisicing id nulla nisi laboris ex in Lorem sunt duis officia eiusmod. Aliqua reprehenderit commodo ex non excepteur duis sunt velit enim. Voluptate laboris sint cupidatat ullamco ut ea consectetur et est culpa et culpa duis.",
+        class: "6-8",
+        venue: "Online + Offline",
+        timing: "Lorem ipsum dolor sit amet. qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.",
+        tps: 1,
+        participants: 2
+    },
+    {
+        name: "Esthetic Art",
+        liveVideo: "/",
+        description: "Topic for the event will be declared on 26th November at 8:15 am.Participants can use any software as per their liking. Participants must submit images of all layers and their final artwork as .png or .jpeg files in a zipped folder which has to be named in the following manner: <School Name_Participant Name> Use of Artificial Intelligence models like Midjourney is strictly prohibited and will lead to disqualification.",
+        short: "Esthetique Art, a novel digital art event that captures creativity from students in classes 6-12.",
+        class: "6-12",
+        venue: "Online",
+        timing: "12 hours will be provided to create and submit the artwork. The topic shall be displayed in the discord server at 8:15 am. Submissions after 8:30 pm will not be entertained",
         tps: 1,
         participants: 2
     },
@@ -103,7 +128,8 @@ const InfoSection = () => {
         The topic of the event will be Declared on the spot
         `,
         short: "Site Incroyable is a Web Development event where we test participants' masterships to create fast, efficient, optimized, and spellbinding websites. Web development languages are among the most aspired after programming skill sets, with JavaScript currently in the lead as a growing number of conventional applications move to web platforms. Web design encompasses many different skills and domains in the exhibition and supervision of websites, from ingenious design and scripting. Accessibility remains a rudimentary of any website development project, transpiring that websites are accessible by anyone, on any device, anywhere in the world.",
-        venue: "Onlin",
+        class: "6-8",
+        venue: "Online",
         timing: 'The event will last for approximately 3 hours',
         tps: 1,
         participants: 2
@@ -155,8 +181,8 @@ const InfoSection = () => {
                                                 })}
                                             </ul>
 
-                                            <tr><th>Class: </th><td>{a.class}</td></tr>
 
+                                            <tr><th>Class: </th><td>{a.class}</td></tr>
                                             <tr><th><h3>Venue: </h3></th><td>{a.venue}</td></tr>
 
 

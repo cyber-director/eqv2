@@ -833,7 +833,7 @@ body {
   grid-column-start: 1;
   grid-column-end: 3;
 }
-.info-section-e:nth-child(6) {
+.info-section-e:nth-child(8) {
   grid-column-start: 1;
   grid-column-end: 3;
 }
@@ -1078,7 +1078,7 @@ body {
   text-transform: uppercase;
   padding: 2rem;
   box-shadow: 0rem 0rem 1rem 0 rgba(0, 0, 0, 1);
-  transition: all 0.3s;
+  transition: all 0.2s;
   border-radius: 0.5rem;
   cursor: pointer;
   color: #000;
@@ -1104,8 +1104,11 @@ body {
   /* background-image: linear-gradient(to right bottom, #27B32A, #92FE45); */
 }
 .cta-register span:hover {
-  transform: scale(1.005);
-  box-shadow: 1rem 1rem 0 rgba(0, 0, 0, 1);
+  /* transform: scale(1.005); */
+  color: white;
+  background: rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(0, 255, 0, 1);
+  box-shadow: 0.3rem 0.3rem 0 rgba(0, 255, 0, 0.75);
 }
 @media (max-width: 768px) {
   .cta-register {
