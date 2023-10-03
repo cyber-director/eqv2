@@ -134,7 +134,6 @@ const InfoSection = () => {
         tps: 1,
         participants: 2
     }
-
     ]
     return (<div className="info-section">
         <h2 style={{ "color": "white" }}>
