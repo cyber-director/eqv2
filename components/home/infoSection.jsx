@@ -14,7 +14,8 @@ const InfoSection = () => {
         venue: "Senior Computer Lab",
         timing: 'The event will last for approximately 3 hours, without accounting for breaks. The first round will last for 30 minutes. The second round will last for an hour. The third round will last for an hour and thirty minutes. You will be allowed to work on questions from the previous round(s) and the Data Structure during the second and third rounds',
         tps: 1,
-        participants: 2
+        participants: 2,
+        class: "9-12",
 
     },
     {
@@ -86,7 +87,7 @@ const InfoSection = () => {
         The quizmaster’s decision would be final and binding.
         Participants to prepare current affairs and general awareness related to IT, history of companies, and  their products
         `,
-        short:"Quizzing is an art form for people who find solace in perpetually striving to attain more knowledge about everything. The Scio Quiz tests a person's level of knowledge about current affairs and general awareness related to IT, the history of companies, and their products. Along with that, it further challenges participants by adding another layer of complexity: teamwork. Along with being well-informed, to succeed in this event, participants ought to have a strong command of communication and coordination ",
+        short: "Quizzing is an art form for people who find solace in perpetually striving to attain more knowledge about everything. The Scio Quiz tests a person's level of knowledge about current affairs and general awareness related to IT, the history of companies, and their products. Along with that, it further challenges participants by adding another layer of complexity: teamwork. Along with being well-informed, to succeed in this event, participants ought to have a strong command of communication and coordination ",
         venue: "Magnum Opus",
         timing: 'The event will last for approximately 3 hours',
         tps: 1,
@@ -153,6 +154,8 @@ const InfoSection = () => {
                                                     return <li key={index}>{a}</li>
                                                 })}
                                             </ul>
+
+                                            <tr><th>Class: </th><td>{a.class}</td></tr>
 
                                             <tr><th><h3>Venue: </h3></th><td>{a.venue}</td></tr>
 
