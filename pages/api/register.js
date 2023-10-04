@@ -47,7 +47,7 @@ const Handler = async (req, res) => {
                     // return res.status(400).json({error:"Registratios for the Photo Perfecta event have been closed"})
                     if (members.length !== 1) {
                         return res.status(400).json({
-                            error: "Parabellum requires exactly 1 member"
+                            error: "Photo Perfecta requires exactly 1 member"
                         })
                     }
                     break;
@@ -72,6 +72,18 @@ const Handler = async (req, res) => {
                         })
                     }
                     break;
+                case "Esthetic Art":
+                    if (members.length !== 1) {
+                        return res.status(400).json({
+                            error: "Esthetic Art requires exactly 1 member"
+                        })
+                    }
+                case "Minecraft":
+                    if (members.length !== 2) {
+                        return res.status(400).json({
+                            error: "Minecraft requires exactly 2 members"
+                        })
+                    }
                 default:
                     return res.status(400).json({
                         error: "Invalid event"

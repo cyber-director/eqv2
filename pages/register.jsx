@@ -29,6 +29,16 @@ const info = [{
     name: 'Filmskaping',
     liveVideo: '/cover-video.mp4',
     link: 'register/filmskaping'
+},
+{
+    name: 'Esthetique Art',
+    liveVideo: '/Esthetique_art.mp4',
+    link: 'register/esthetic-art'
+},
+{
+    name: 'Minecraft',
+    liveVideo: '/minecraft.mp4',
+    link: 'register/minecraft-pvp'
 }]
 const Register = () => {
     console.log(info);

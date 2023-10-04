@@ -4,7 +4,7 @@ import Link from 'next/link';
 const InfoSection = () => {
     const info = [{
         name: 'Esprit decode',
-        liveVideo: '/cover-coding.mp4',
+        liveVideo: '/cover-coding-1.mp4',
         description: `Participants will be allowed to refer to documentation; however, copying code would be strictly prohibited.
         The students are allowed to use JS/python; No additional libraries, modules, or frameworks will be allowed.
         There will be 4 levels—Round #1, Round #2, Round #3, and the data structure round. The data structure round will run parallel to the other rounds.
