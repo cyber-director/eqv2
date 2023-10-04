@@ -5,14 +5,17 @@
 - [X] Dashboard
 - [X] API
 *** Registeration
-- [ ] All event registeration
-  - [ ] Minecraft API
-  - [ ] Art API
-- [X] Mailing System
-- [ ] Registeration Validation
+- [X] All event registeration
+  - [X] Minecraft API
+  - [X] Art API
+- [-] Mailing System
+  - [-] Gmail link not behaving like link bug
+- [-] Registeration Validation
 - [ ] TODO
-** [X] Frontend
+** Frontend
+- [X] Everything ?
 
 -------
 * Note from dev guy
-- I Dont need sleep i need to finish this
+I Dont need sleep i need to finish this
+i need sanity

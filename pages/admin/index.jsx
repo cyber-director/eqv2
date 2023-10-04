@@ -103,6 +103,8 @@ const Admin = () => {
     let scioRegistrations = state.registrations.filter(reg => reg.registration.event === "Scio");
     let filmskapingRegistrations = state.registrations.filter(reg => reg.registration.event === "Filmskaping");
     let photoPerfectaRegistrations = state.registrations.filter(reg => reg.registration.event === "Photo Perfecta");
+    let esthetiqueArtRegisterations = state.registrations.filter(reg => reg.registration.event === "Esthetique Art");
+    let minecraftRegisterations = state.registrations.filter(reg => reg.registration.event === "Minecraft");
     let espritEmails = (state.registrations.filter(a => a.registration.event === "Esprit Decode").map(a => {
         return a.team.members.map(b => {
             return b.email.toLowerCase();
@@ -123,7 +125,8 @@ const Admin = () => {
             return b.email.toLowerCase();
         }).join(", ")
     })).join(", ");
-    let parabellumEmails = (state.registrations.filter(a => a.registration.event === "Filmskaping" && a.team.name !=="Mitochondria").map(a => {
+    // TODO nigga this work?
+    let parabellumEmails = (state.registrations.filter(a => a.registration.event === "Parabellum" && a.team.name !=="Mitochondria").map(a => {
         return a.team.members.map(b => {
             return b.email.toLowerCase();
         }).join(", ")
@@ -133,7 +136,17 @@ const Admin = () => {
             return b.email.toLowerCase();
         }).join(", ")
     })).join(", ");
- 
+    let esthetiqueArtEmails = (state.registrations.filter(a => a.registration.event === "Esthetique Art").map(a => {
+        return a.team.members.map(b => {
+            return b.email.toLowerCase();
+        }).join(", ")
+    })).join(", ");
+    let minecraftEmails = (state.registrations.filter(a => a.registration.event === "Minecraft").map(a => {
+        return a.team.members.map(b => {
+            return b.email.toLowerCase();
+        }).join(", ")
+    })).join(", ");
+
 
 
 
@@ -206,6 +219,29 @@ const Admin = () => {
                 </div>
                 <p>Participant Emails</p>
                 <p className='admin-emails'>{PhotoPerfectaEmails}</p>
+            </div>
+            <div className='admin-container-inner-each'>
+                <h2>Esthetique Art Registrations: {esthetiqueArtRegisterations.length}</h2>
+                <div className='admin-registrations-container'>
+                    <div className='admin-registrations'>
+                        {esthetiqueArtRegisterations.map((reg, index) => {
+                            return <Registration teamName={reg.team.name} schoolName={reg.team.school} members={reg.team.members} key={index} />
+                        })}
+                    </div>
+                </div>
+                <p>Participant Emails</p>
+                <p className='admin-emails'>{esthetiqueArtEmails}</p>
+            </div>
+            <div className='admin-container-inner-each'>
+                <h2>Minecraft Registrations: {minecraftRegisterations.length}</h2>
+                <div className='admin-registrations'>
+                    {minecraftRegisterations.map((reg, index) => {
+                        return <Registration teamName={reg.team.name} schoolName={reg.team.school} members={reg.team.members} key={index} />
+                    })}
+                </div>
+
+                <p>Participant Emails</p>
+                <p className='admin-emails'>{minecraftEmails}</p>
             </div>
         </div>
     </div>

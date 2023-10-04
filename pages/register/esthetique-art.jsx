@@ -5,7 +5,7 @@ import listOfSchools from '../../utils/listOfSchools';
 import register from '../../utils/register';
 const Register = () => {
   const [state, setState] = React.useState({
-    event: "Esthetic Art",
+    event: "Esthetique Art",
     school: "",
     members: [
       {

@@ -72,18 +72,20 @@ const Handler = async (req, res) => {
                         })
                     }
                     break;
-                case "Esthetic Art":
+                case "Esthetique Art":
                     if (members.length !== 1) {
                         return res.status(400).json({
                             error: "Esthetic Art requires exactly 1 member"
                         })
                     }
+                    break;
                 case "Minecraft":
                     if (members.length !== 2) {
                         return res.status(400).json({
                             error: "Minecraft requires exactly 2 members"
                         })
                     }
+                    break;
                 default:
                     return res.status(400).json({
                         error: "Invalid event"

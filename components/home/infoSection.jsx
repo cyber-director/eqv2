@@ -108,7 +108,7 @@ const InfoSection = () => {
         participants: 2
     },
     {
-        name: "Esthetic Art",
+        name: "Esthetique Art",
         liveVideo: "/Esthetique_art.mp4",
         description: "Topic for the event will be declared on 26th November at 8:15 am.Participants can use any software as per their liking. Participants must submit images of all layers and their final artwork as .png or .jpeg files in a zipped folder which has to be named in the following manner: <School Name_Participant Name> Use of Artificial Intelligence models like Midjourney is strictly prohibited and will lead to disqualification.",
         short: "Esthetique Art, a novel digital art event that captures creativity from students in classes 6-12.",
