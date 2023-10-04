@@ -8,7 +8,7 @@ export const verifyEmail = (member, event, link, link2) => {
     <p>
       Your registeration process for the ${event} event has been initiated. To verify your registration, please click on the button below.  
       </p>
-    <a style="background-image:linear-gradient(to right, #D60270, #9B4F96, #0038A8); padding:1.5rem; font-weight: 900; box-shadow: 0 0 20px rgba(0,0,0,0.9); position:relative; display:inline-block; color:white; border:none; text-decoration:none; margin:1rem 0; border-radius:1rem" href='${link}'>Verify Email </a> 
+    <a  style="text-decoration:none;" href='${link}'>Verify Email </a>
     <p style="font-size:14px; margin-top:4rem;">
       In case you didn't register for the ${event} event, click on the button below to stop your registration process.  
     </p>

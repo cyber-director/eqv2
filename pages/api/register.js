@@ -107,7 +107,6 @@ const Handler = async (req, res) => {
                 await member.save();
                 mems = [...mems, member._id];
             }
-
             let team = new Team({
                 name: req.body.teamName,
                 school: school,
