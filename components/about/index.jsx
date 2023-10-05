@@ -2,37 +2,6 @@
 import React from 'react';
 
 const organizers = [
-    //     name: 'Aadya Singh',
-    //     core: true,
-    //     designation: "The Language Marshal of the Student Council of DPS Kolar Road, Bhopal",
-    //     contactNumber: '+91 70002 36817',
-    //     email: "",
-    //     profile: 'Aadya is known for doing absolutely everything they can get their hands on, this is reflected in their portfolio. They’ve collaborated with multiple youth-run non-profits to spread awareness as well as crowdfunding. They’ve managed the social media page for a local renowned handicraft store. They are a published poet that’s always looking for an excuse to bring it up in a conversation. They are a self starter with the experience of organizing multiple experiences. In their spare time, you can find them snuggled in a corner with their cats reading Donna Tartt or some obscure contemporary poet. A sure way to get them to pay attention to you would be to start a debate on acrylic v. oil paint. They are the most approachable of the bunch(you are encouraged to reach out to them for absolutely anything you need or want). Their love for all things cheesy and sappy overwhelms their work.',
-
-    //     image: "/spencer.jpeg"
-    // },
-    // {
-    //     name: 'Angad Singh Bains',
-    //     core: true,
-    //     designation: "The Senior Head Boy of the Student Council Of DPS Kolar Road, Bhopal",
-    //     profile: 'A hard-working, ambitious, and competitive student who worked on many projects and events. One of the first members who helped in making the event a great success. He likes to find exotic and astonishing answers to new and difficult challenges He has participated in many online game designing and coding events. Having a keen eye for perfection, he developed many games and Arduino projects. Angad won first prize in movie making and got second prize in the inter-national gaming competition. In his spare time, you will find him either eating food while working on his computer or reading some book. Sometimes he likes to cook and spend time with friends. Currently pursuing a High School Diploma focused in PCM + IP from Delhi Public School, Kolar Road, Bhopal. He wants to become a game designer and developer and wants to play for a professional E-sports team.',
-    //     image: "/Angad.jpeg"
-    // },
-    // {
-    //     name: 'Shreshth Verma',
-    //     designation: "President of the Technoclub and the Senior Cyber Director of the Student Council",
-    //     profile: 'A perpetual student, an entrepreneur, and an Experienced Full Stack Developer with a demonstrated history of working in the industry. Skilled in HTML, Front-end Development, Cascading Style Sheets (CSS), MongoDB, Node.js, Express.js, React, and JavaScript. Currently pursuing a High School Diploma focused in PCM + IP from Delhi Public School, Kolar Road, Bhopal. Despite being in grade 12th, Shreshth has extensive work experience as a full stack developer: he worked at an MNC for over a year and at a small business for nearly 4 months, as a MERN Stack + blockchain developer. Shreshth is the cyber director of the DPS Kolar student council and the president of the techno club. He conceptualized the key idea behind the Extra Quadrata tech fest. Shreshth is currently working with queer-teens India, an organization that seeks to abate discrimination and social isolation in the Indian queer community.',
-    //     core: true,
-    //     image: "/shreshth.jfif"
-    // },
-    // {
-    //     name: "Vyomesh Khare",
-    //     profile: "Vyomesh, completing high schooling by Mid 2023 in science stream is concurrently preparing for entry into graduate level studies in an engineering institution of respectable stature. With an ever rising reliance on the digital applications including artificial intelligence; he is well entrenched into learning cyber security through upcoming technologies. Extending volunteer services through Cyber Jagriti, he loves cars & concept models, problem solving, helping people of all ages and dissemination of knowledge. A soft spoken, cool thinker & homely, working hard to cast an academic foundation aimed at crafting unique positioning in the professionals world besides playing video games in leisure hours.",
-    //     core: true,
-    //     image: "/Vyomesh.jpeg",
-    //     designation: "External Coordinator",
-    // },
-
     {
         name: "Dhairya Garg",
         core: true,
@@ -41,14 +10,6 @@ const organizers = [
         profile: "Dhairya is a quiz-zard and a programmer through and through. Being curious, reliable and keen individual, Dhairya has an analytical and rational mind.",
         image: "/Dhairya.jpeg"
     },
-    // {
-    //     name: "Rishabh Kothari",
-    //     core: false,
-    //     volunteer: false,
-    //     image: "https://images.unsplash.com/photo-1582266255765-fa5cf1a1d501?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
-    //     designation: "Team leader of Scio",
-    //     profile: "Inquizitive and pragmatic, he has participated in many inter school quizzes and cryptic hunts"
-    // },
     // {
     //     name: "Ayush Narwariya",
     //     profile: "Ayush is someone you can rely on he loves to hear your past experiences and future plans and likes to discuss abt various conspiracies regarding life, he is also a major asset for his school valorant team and he is currently pursuing his high school diploma in PCM + IP he is someone who is always ready to comfort you in any situation you'll find him lazing around with his friends either playing video games or sporting he is also a valuable asset for school E-sports team, his side hobbies include singing, playing piano and playing cricket he is someone who'll be happy to help u throughout the event.",
@@ -59,7 +20,7 @@ const organizers = [
     // },
     {
         name: "Buddha Dev Das",
-        core: false,
+        core: true,
         volunteer: false,
         designation: "Team leader of Flimscaping",
         profile: "Buddha is an esports player and a tech enthusiast. He is a 10th grader who wants to be a pro esports athlete in the future. He also has side hobbies which include playing the guitar, footballer for his school team and does lifting aswell. He assures his total dedication in making this event a joyful one for every participant.",
@@ -112,7 +73,7 @@ const organizers = [
 
     {
         name: "Aarya Sharma",
-        core: false,
+        core: true,
         volunteer: false,
         designation: "Member of the Quiz team",
         image: '/Aarya.jpeg',
@@ -121,8 +82,8 @@ const organizers = [
 
     {
         name: 'Advay Singh Yadav',
-        core: false,
-        volunteer: true,
+        core: true,
+        volunteer: false,
         designation: "Member of the Compering Team",
         profile: `He is an over-thinker. He makes small models in Blender and Studio and animates a little. He works for a few games online. He likes meeting new people. I sing online as well on my Instagram profile. Thank you.`,
         image: "/Advay.jpeg"
