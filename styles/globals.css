@@ -161,6 +161,23 @@
     left: 50%;
   }
 }
+@keyframes ani2 {
+  from {
+    mask-position: 0 0;
+  }
+  to {
+    mask-position: -2900% 0;
+  }
+}
+
+@keyframes ani {
+  from {
+    mask-position: -2900% 0;
+  }
+  to {
+    mask-position: 0 0;
+  }
+}
 html {
   font-size: 10px;
   margin: 0;
@@ -1082,27 +1099,15 @@ body {
   transition: all 0.2s;
   border-radius: 0.5rem;
   cursor: pointer;
-  color: #000;
+  color: #FFFF;
   text-decoration: none;
   font-size: 2rem;
+  background: #002f8d;
 }
 @media (max-width: 768px) {
   .cta-register span {
     text-align: center;
   }
-}
-.cta-register span:nth-child(2) {
-  background: #194592d9;
-}
-.cta-register span:first-child {
-  color: white;
-  background: #002f8d;
-  /* background-image: linear-gradient(to right bottom, #27B32A, #92FE45); */
-}
-.cta-register span:last-child {
-  color: white;
-  background: #002f8d;
-  /* background-image: linear-gradient(to right bottom, #27B32A, #92FE45); */
 }
 .cta-register span:hover {
   /* transform: scale(1.005); */

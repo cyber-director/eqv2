@@ -33,7 +33,7 @@ const info = [{
 {
     name: 'Esthetique Art',
     liveVideo: '/Esthetique_art.mp4',
-    link: 'register/esthetic-art'
+    link: 'register/esthetique-art'
 },
 {
     name: 'Minecraft',
