@@ -23,8 +23,8 @@ const eventErrorMsg = {
         errorMessage: "Scio requires exactly 2 memvers",
         requiredMembers: 2,
     },
-    "Minecraft": {
-        errorMessage: "Minecraft requires exactly 2 members",
+    "Polemos": {
+        errorMessage: "Polemos requires exactly 2 members",
         requiredMembers: 2,
     },
     "Parabellum": {

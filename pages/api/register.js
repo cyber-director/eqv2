@@ -24,74 +24,8 @@ const Handler = async (req, res) => {
         await connect();
         if (req.method === "POST") {
             eventValidator(event, members);
-
             // Un-comment When registerations closed
             // return res.status(400).json({error:"Registrations have been closed"})
-            // switch (event) {
-            //     case "Esprit Decode":
-            //         if (members.length !== 2) {
-            //             return res.status(400).json({
-            //                 error: "Esprit Decode requires exactly 2 members"
-            //             })
-            //         }
-            //         break;
-            //     case "Parabellum":
-            //         // return res.status(400).json({error:"Registratios for the Parabellum event have been closed"})
-            //         if (members.length !== 6) {
-            //             return res.status(400).json({
-            //                 error: "Parabellum requires exactly 6 members"
-            //             })
-            //         }
-            //         break;
-            //     case "Photo Perfecta":
-
-            //         // return res.status(400).json({error:"Registratios for the Photo Perfecta event have been closed"})
-            //         if (members.length !== 1) {
-            //             return res.status(400).json({
-            //                 error: "Photo Perfecta requires exactly 1 member"
-            //             })
-            //         }
-            //         break;
-            //     case "Filmskaping":
-            //         if (members.length !== 2) {
-            //             return res.status(400).json({
-            //                 error: "Filmskaping requires exactly 2 members"
-            //             })
-            //         }
-            //         break;
-            //     case "Site Incroyable":
-            //         if (members.length !== 2) {
-            //             return res.status(400).json({
-            //                 error: "Site Incroyable requires exactly 2 members"
-            //             })
-            //         }
-            //         break;
-            //     case "Scio":
-            //         if (members.length !== 2) {
-            //             return res.status(400).json({
-            //                 error: "Scio requires exactly 2 members"
-            //             })
-            //         }
-            //         break;
-            //     case "Esthetique Art":
-            //         if (members.length !== 1) {
-            //             return res.status(400).json({
-            //                 error: "Esthetic Art requires exactly 1 member"
-            //             })
-            //         }
-            //         break;
-            //     case "Minecraft":
-            //         if (members.length !== 2) {
-            //             return res.status(400).json({
-            //                 error: "Minecraft requires exactly 2 members"
-            //             })
-            //         }
-            //         break;
-            //     default:
-            //         return res.status(400).json({
-            //             error: "Invalid event"
-            //         })
-            // }
             for (let i = 0; i < members.length; i++) {
                 let exist = await Member.findOne({
                     email: members[i].email

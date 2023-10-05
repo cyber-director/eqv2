@@ -36,9 +36,9 @@ const info = [{
     link: 'register/esthetique-art'
 },
 {
-    name: 'Minecraft',
+    name: 'Polemos',
     liveVideo: '/minecraft.mp4',
-    link: 'register/minecraft-pvp'
+    link: 'register/proelium'
 }]
 const Register = () => {
     console.log(info);

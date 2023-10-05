@@ -5,7 +5,7 @@ import listOfSchools from '../../utils/listOfSchools';
 import register from '../../utils/register';
 const Register = () => {
     const [state, setState] = React.useState({
-        event: "Minecraft",
+        event: "Polemos",
         school: "",
         members: [
             {
@@ -28,7 +28,7 @@ const Register = () => {
     return (
         <div className="register">
             <div className="register-header">
-                <h1>Register for Minecraft</h1>
+                <h1>Register for Polemos</h1>
 
                 <div className='register-header-blur'></div>
                 {/* <video src='/cover.mp4' autoPlay={true} loop={true} muted={true} className="register-header-video" /> */}
