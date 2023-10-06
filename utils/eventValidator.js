@@ -30,7 +30,11 @@ const eventErrorMsg = {
     "Parabellum": {
         errorMessage: "Parabellum requires exactly 6 members",
         requiredMembers: 6,
-    }
+    },
+    "Technovate": {
+        errorMessage: "Technovate requires exactly 4 members",
+        requiredMembers: 4,
+    },
 }
 const eventValidator = (event, member) => {
     const errMsg = eventErrorMsg[event];

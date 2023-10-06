@@ -851,10 +851,10 @@ body {
   grid-column-start: 1;
   grid-column-end: 3;
 }
-.info-section-e:nth-child(8) {
-  grid-column-start: 1;
-  grid-column-end: 3;
-}
+/* .info-section-e:nth-child(8) { */
+/*   grid-column-start: 1; */
+/*   grid-column-end: 3; */
+/* } */
 .info-section-e-cover {
   filter: blur(0.4rem);
   background-image: linear-gradient(to right bottom, #F45A5A, #45038F);

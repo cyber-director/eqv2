@@ -39,6 +39,11 @@ const info = [{
     name: 'Polemos',
     liveVideo: '/minecraft.mp4',
     link: 'register/proelium'
+},
+{
+    name: 'Technovate',
+    liveVideo: '',
+    link: 'register/technovate',
 }]
 const Register = () => {
     console.log(info);
