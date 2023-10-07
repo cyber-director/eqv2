@@ -42,7 +42,7 @@ const info = [{
 },
 {
     name: 'Technovate',
-    liveVideo: '',
+    liveVideo: '/atl-event.mp4',
     link: 'register/technovate',
 }]
 const Register = () => {

@@ -565,7 +565,7 @@ body {
   overflow: auto;
   display: grid;
   grid-template-columns: auto auto auto;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
   padding: 2rem;
 }
 .register-home-container-each {
@@ -604,7 +604,7 @@ body {
 }
 .register-home-container div {
   width: 100%;
-  margin: 2rem 0;
+  margin: 2px;
 }
 @media (max-width: 768px) {
   .register-home-container div {
