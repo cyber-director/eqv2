@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 const info = [{
-    name: 'Espit Decode',
+    name: 'Esprit Decode',
     liveVideo: '/cover-coding.mp4',
     link: 'register/esprit-decode'
 },
