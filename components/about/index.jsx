@@ -10,14 +10,15 @@ const organizers = [
         profile: "Dhairya is a quiz-zard and a programmer through and through. Being curious, reliable and keen individual, Dhairya has an analytical and rational mind.",
         image: "/Dhairya.jpeg"
     },
-    // {
-    //     name: "Ayush Narwariya",
-    //     profile: "Ayush is someone you can rely on he loves to hear your past experiences and future plans and likes to discuss abt various conspiracies regarding life, he is also a major asset for his school valorant team and he is currently pursuing his high school diploma in PCM + IP he is someone who is always ready to comfort you in any situation you'll find him lazing around with his friends either playing video games or sporting he is also a valuable asset for school E-sports team, his side hobbies include singing, playing piano and playing cricket he is someone who'll be happy to help u throughout the event.",
-    //     core: false,
-    //     volunteer: false,
-    //     image: "/Ayush profile.jpg",
-    //     designation: "Team Leader of Parabellum",
-    // },
+    {
+    
+        name: "Ayush Narwariya",
+        profile: "Ayush is someone you can rely on he loves to hear your past experiences and future plans and likes to discuss abt various conspiracies regarding life, he is also a major asset for his school valorant team and he is currently pursuing his high school diploma in PCM + IP he is someone who is always ready to comfort you in any situation you'll find him lazing around with his friends either playing video games or sporting he is also a valuable asset for school E-sports team, his side hobbies include singing, playing piano and playing cricket he is someone who'll be happy to help u throughout the event.",
+        core: false,
+        volunteer: false,
+        image: "/Ayush profile.jpg",
+        designation: "Team Leader of Parabellum",
+    },
     {
         name: "Buddha Dev Das",
         core: true,
