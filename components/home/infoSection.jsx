@@ -82,7 +82,7 @@ const InfoSection = () => {
     },
     {
         name: 'Scio',
-        liveVideo: '/cover-cryptic.mp4',
+        liveVideo: '/Scio-cover.mp4',
         description: `
         The quiz will be conducted in 2 parts: A written preliminary and the main quiz.
         The top 6 teams on the basis of preliminary marks would qualify for the main quiz.
