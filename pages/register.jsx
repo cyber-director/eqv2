@@ -6,9 +6,9 @@ const info = [{
     link: 'register/esprit-decode'
 },
 {
-    name: 'Photo Perfecta',
+    name: 'Lux Captis',
     liveVideo: '/cover-photography.mp4',
-    link: 'register/photo-perfecta'
+    link: 'register/lux-captis'
 },
 {
     name: 'Parabellum',

@@ -19,7 +19,7 @@ const InfoSection = () => {
 
     },
     {
-        name: 'Photo Perfecta',
+        name: 'Lux Captis',
         liveVideo: '/cover-photography.mp4',
         description: `
         This is an online event.
@@ -33,10 +33,10 @@ const InfoSection = () => {
         Any type of Manipulation is not allowed however basic post-processing will be considered.
         Participants have to upload their original work
         `,
-        short: "Photo perfecta is the perfect opportunity for all the creative photographers out there to showcase their masterpiece and compete with other photographers as well.",
+        short: "Lux captis is the perfect opportunity for all the creative photographers out there to showcase their masterpiece and compete with other photographers as well.",
         venue: "Online",
         timing: 'The participants will be given 3 days to click and submit their photographs. The last date for submission is 15rd November 2022',
-        tps: 2,
+        tps: 1,
         participants: 1
     },
     {

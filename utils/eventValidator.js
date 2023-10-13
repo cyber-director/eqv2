@@ -1,6 +1,6 @@
 const eventErrorMsg = {
-    "Photo Perfecta": {
-        errorMessage: "Photo Perfecta requires exactly 1 member",
+    "Lux Captis": {
+        errorMessage: "Lux Captis requires exactly 1 member",
         requiredMembers: 1,
     },
     "Esthetique Art": {
