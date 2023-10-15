@@ -2,7 +2,6 @@ import '../styles/globals.css'
 import Head from 'next/head'
 import Footer from '../components/home/footer'
 
-import 'dotenv/config'
 
 function MyApp({ Component, pageProps }) {
   return <>
