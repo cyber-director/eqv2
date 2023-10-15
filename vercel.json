@@ -1,6 +1,6 @@
 {
   "functions": {
-    "pages/api/admin": {
+    "pages/api/*": {
       "maxDuration": 10
     }
   }
