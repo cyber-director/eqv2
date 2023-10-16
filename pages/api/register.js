@@ -60,9 +60,6 @@ const Handler = async (req, res) => {
                 let member = await Member.findOne({
                     email: members[i].email
                 });
-                let verified = await Verify.findOne({
-                    member: member._id
-                });
                 let verify = new Verify({
                     code: uuid(),
                     member: member._id
