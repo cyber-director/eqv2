@@ -84,10 +84,13 @@ Coaches are not allowed.
         name: 'Scio',
         liveVideo: '/Scio-cover.mp4',
         description: `
-        The quiz will be conducted in 2 parts: A written preliminary and the main quiz.
-        The top 6 teams on the basis of preliminary marks would qualify for the main quiz.
-        The quizmaster’s decision would be final and binding.
-        Participants to prepare current affairs and general awareness related to IT, history of companies, and  their products
+        One school can have one team registered. 
+Each team will consist of two members.
+The quiz will be conducted in 2 parts: A written preliminary and the main quiz.
+The top 6 teams would qualify for the main quiz on the basis of preliminary marks.
+The quizmaster’s decision would be final and binding.
+Participants to prepare current affairs and general awareness related to Information Technology, Prominent Tech giants: their history and inventions.
+Use of Unfair Means will lead to immediate disqualification.
         `,
         short: "Quizzing is an art form for people who find solace in perpetually striving to attain more knowledge about everything. The Scio Quiz tests a person's level of knowledge about current affairs and general awareness related to IT, the history of companies, and their products. Along with that, it further challenges participants by adding another layer of complexity: teamwork. Along with being well-informed, to succeed in this event, participants ought to have a strong command of communication and coordination ",
         class: "8-12",
@@ -110,7 +113,15 @@ Coaches are not allowed.
     {
         name: "Esthetique Art",
         liveVideo: "/Esthetique_art.mp4",
-        description: "Topic for the event will be declared on 26th November at 8:15 am.Participants can use any software as per their liking. Participants must submit images of all layers and their final artwork as .png or .jpeg files in a zipped folder which has to be named in the following manner: <School Name_Participant Name> Use of Artificial Intelligence models like Midjourney is strictly prohibited and will lead to disqualification.",
+        description: `Each school can choose to register one participant from classes 9 to 12.
+Topic for the event will be declared on 26th November at 8:15 am.
+Participants can use any software as per their software.
+Participants are required to submit images of all layers and their final artwork as <png> or <jpeg> files in a zipped folder which should be named in the following manner: <School Name_Participant Name>.
+12 hours will be provided to create and submit the artwork. The topic shall be displayed in the discord server at 8:15 am.
+Submissions after 8:30 pm will not be entertained.
+Use of Artificial Intelligence models like Midjourney and Dall-E is strictly prohibited and will lead to disqualification.
+The top 5 artists of the first round will have a chance to be present in school campus for the final round.
+`,
         short: "Esthetique Art, a novel digital art event that captures creativity from students in classes 6-12.",
         class: "6-12",
         venue: "Online",
@@ -121,11 +132,14 @@ Coaches are not allowed.
     {
         name: 'Site Incroyable',
         liveVideo: '/cover-website.mp4',
-        description: `Participants will be allowed to refer to documentation but copying code is strictly prohibited.
-        The Participants will be given an additional 30 minutes to gather resources from the internet.
-        The website could be made using REACT, Angular, Vue, or vanilla HTML + JS/TS + CSS.
-        For using any additional frameworks or libraries, permission from the organizing team will be required.
-        The topic of the event will be Declared on the spot
+        description: `The team should comprise of 2 members classes 6 to 8.
+The website could be made using React, Angular, Vue, vanilla HTML + JS/TS + CSS or any other framework of their choice.
+The participants are required to upload the website on Vercel.
+The Vercel link along with the source code needs to be emailed to: extraquadrata@gmail.com latest by 26th November, with the following subject: <School Name_Partcipant Name 1_Participant Name 2_Theme>.
+Participants are required to develop “Infotainment” websites on any of the following topics:
+Impact of Nazi Germany and WW2
+Future of Space Exploration and life on the Moon.
+The top 5 teams will have a chance to be in the campus offline and present their website.
         `,
         short: "Site Incroyable is a Web Development event where we test participants' masterships to create fast, efficient, optimized, and spellbinding websites. Web development languages are among the most aspired after programming skill sets, with JavaScript currently in the lead as a growing number of conventional applications move to web platforms. Web design encompasses many different skills and domains in the exhibition and supervision of websites, from ingenious design and scripting. Accessibility remains a rudimentary of any website development project, transpiring that websites are accessible by anyone, on any device, anywhere in the world.",
         class: "6-8",
@@ -137,7 +151,12 @@ Coaches are not allowed.
     {
         name: 'Technovate',
         liveVideo: '/atl-event.mp4',
-        description: `Teams both from ATL as well non-ATL schools can participate in this event.Participants have to propose their ideas to solve any real-world problem using Artificial Intelligence and/or STEM concepts on the given theme and make a working model or prototype on the idea.Each team has to present their working model with the help of a video.The length of the video should be maximum 3 minutes and the format should be .mp4.The teams can add their voiceover for explaining the steps to create their model/prototype.The teams must ensure that the model submitted is based on their original and innovative idea and the video should not contain any copyright music or content.The teams are free to use any hardware or software to produce the video.The video must include the name of the participants and the school’s name.The name of the video file should be <EventName_SchoolName>.The video has to be uploaded on the given shared drive link on or before the given submission date. Top 5 finalist teams will be invited to demonstrate their models in front of the judges on ________`,
+        description: `Teams both from ATL as well non-ATL schools can participate in this event.
+Participants are required to propose their ideas to solve any real-world problem using Artificial Intelligence and/or STEM concepts on the given theme and make a working model or a prototype on the idea.
+Each team(consisting of four members from classes 9 to 12) has to present their working model with the help of a video.
+The length of the video should be a maximum of 3 minutes and the format should be <mp4>
+The video must include the name of the participants and the school.
+The name of the video file should be labelled in the following manner: <EventName_SchoolName> and should be emailed to extraquadrata@gmail.com latest by 26th November`,
         short: "Technnovate is an event from the ATL segment of our school to showcase the innovative models made by the participants for solving real-word problems. The event aims to bring out the scientific temperament in a student as well as contribute positively for the society.",
         class: "6-10",
         venue: "Offline",
