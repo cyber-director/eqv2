@@ -5,10 +5,11 @@ const InfoSection = () => {
     const info = [{
         name: 'Esprit decode',
         liveVideo: '/cover-coding-1.mp4',
-        description: `Participants will be allowed to refer to documentation; however, copying code would be strictly prohibited.
-        The students are allowed to use JS/python; No additional libraries, modules, or frameworks will be allowed.
-        There will be 4 levels—Round #1, Round #2, Round #3, and the data structure round. The data structure round will run parallel to the other rounds.
-        The questions in the first round will carry 10 scores each, the ones in the second round and the data structures round will carry 20 scores each, and the ones in the third round will carry 30 scores each. There will be an opportunity to gain bonus scores
+        description: `Each school can send a team of 2 participants from classes 9-12.
+Participants will be allowed to refer to documentation; however, copying code is strictly prohibited.
+The students are allowed to use Python. However, no additional modules or frameworks shall be allowed; Default libraries (for ex. math, os, time, numpy etc.) are permitted
+The marking scheme for all questions will be conveyed by the Team Leader on the spot.
+There will be an opportunity to gain bonus scores by solving the “Secret Problems”.
         `,
         short: "The dawn of this century came with the advent of a new sport, competitive programming. This competition challenges participants' ability to produce optimized, efficient, scalable, and readable solutions to tricky questions in four highly challenging rounds. To excel at this competition, a person needs to have outstanding skills and knowledge about data structures and algorithms and either python or the javascript programming language. However, to enjoy this event, there are no such requirements. We have curated a diverse array of questions that challenge and force participants to think outside the box, some of which require little expertise while others require exceptionalism. ",
         venue: "Senior Computer Lab",
@@ -22,16 +23,17 @@ const InfoSection = () => {
         name: 'Lux Captis',
         liveVideo: '/cover-photography.mp4',
         description: `
-        This is an online event.
         This is an individual event.
-        The participants have to submit their photographs online on the provided google form.
-        The theme will be provided on 13th november. The photograph has to be clicked between 13-15 November.
-        The last date and time for submission is 15th november 2022, 23:59:59.
-        Each participant has to send 2 photographs; 1 photograph for each theme.
-        Participants have to attach their raw image(if any).
-        Participants need to provide the Exif(Exchangeable Image File Format) details along with each of their entries.
-        Any type of Manipulation is not allowed however basic post-processing will be considered.
-        Participants have to upload their original work
+The participants have to submit their photographs 30 minutes before the end of event on 24th November.
+The themes of the event are:
+        1. Monochrome
+        2. Leading Lines
+Each participant is required to send 2 photographs : 1 for each theme.
+Participants have to attach the raw image(if any).
+Participants are required to provide the Exif(Exchangeable Image File Format) details along with each of their entries.
+Any type of manipulation is not allowed however basic post-processing will be considered.
+Photo colour grading is strictly prohibited.
+The format for the photographs to be submitted in must be <jpeg>.
         `,
         short: "Lux captis is the perfect opportunity for all the creative photographers out there to showcase their masterpiece and compete with other photographers as well.",
         venue: "Online",
@@ -43,16 +45,14 @@ const InfoSection = () => {
         name: 'Parabellum',
         liveVideo: '/valorant-cover.mp4',
         description: `
-        All matches will be held online.
-        Playoffs will be Best of 1 and Semi-finals and Finals will be best of 3 and 5 respectively.
-        By participating, players agree that their Riot account is visible to third parties.
-        The OC will always have the final say on any matter. Contact an OC member to resolve any disputes.
-        Having any form of conversation or mutual understanding that results in the predetermination of a match’s result would lead to immediate disqualification.
-        Players are required to play using their registered Riot Id.
-        It is advised that players take screenshots of game scores.
-        Only 3 timeouts are allowed—1 before the half, 1 after the half and in overtime.
-        If a technical problem arises 10min timeout will be given.
-        Coaches are not allowed
+        All matches except the finals will be held online.
+Playoffs will be Best of 1, and Semi-finals and Finals will be best of 3.
+By participating, players agree that their Riot account is visible to third parties.
+Having any form of conversation or mutual understanding that results in the predetermination of a match’s result would lead to immediate disqualification.
+Players are required to play using their registered Riot Id.
+Only 3 timeouts are allowed—1 before the half, 1 after the half and 1 in overtime for each team.
+If a technical problem arises a maximum of 10 minute timeout will be given.
+Coaches are not allowed.
         `,
         venue: "Online",
         class: "8-12",
