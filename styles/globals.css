@@ -468,13 +468,13 @@ body {
     border-top-left-radius: 0rem;
     border-top-right-radius: 0rem;
   }
-  .container-left-each:nth-child(5) {
+  .container-left-each:nth-child(7) {
     border-bottom-left-radius: 0rem;
     border-bottom-right-radius: 0rem;
     padding-bottom: 1rem;
   }
 }
-.container-left-each:nth-child(5) {
+.container-left-each:nth-child(7) {
   grid-column: span 2;
 }
 .container-venue {
