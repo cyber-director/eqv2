@@ -7,8 +7,8 @@ const Home = () => {
   return (<div>
 
     <Header
-      title={"Welcome To the Extra Quadrata Tech Fest V2"}
-      description={`We are invigorated and thrilled to announce that our school, DPS Kolar, is hosting the Extra Quadrata Tech Fest on the 5th of October. Our event encompasses a diverse array of sub-events, ranging from gaming to programming.`}
+      title={"Welcome To the Extra Quadrata Tech Fest v2.0"}
+      description={`We are invigorated and thrilled to announce that our school, DPS Kolar, is hosting the Extra Quadrata Tech Fest on the 5th of December. Our event encompasses a diverse array of sub-events, ranging from gaming to programming.`}
       video={{ src: '/retroBG.png' }} />
     <Venue />
     <InfoSection /> 
