@@ -35,7 +35,7 @@ Any type of manipulation is not allowed however basic post-processing will be co
 Photo colour grading is strictly prohibited.
 The format for the photographs to be submitted in must be <.jpeg>.
         `,
-        short: "Lux captis is the perfect opportunity for all the creative photographers out there to showcase their masterpiece and compete with other photographers as well.",
+        short: "Embark on a visual journey through the lens at our exclusive photography event. Elevate your appreciation of the art as we showcase the works of renowned photographers, explore cutting-edge techniques, and engage in thought-provoking discussions on visual storytelling. A harmonious convergence of artistry, innovation, and inspiration awaits.",
         venue: "Online",
         timing: 'The participants will be given 3 days to click and submit their photographs. The last date for submission is 24th November 2023',
         tps: 1,
@@ -56,7 +56,7 @@ The format for the photographs to be submitted in must be <.jpeg>.
         `,
         venue: "Online",
         class: "8-12",
-        short: "E-sports is now as mainstream as physical sports. Being one the most popular competitive games on this planet, Valorant is the game that this event will use to test your skills and your team's coordination.",
+        short: "Dive into the electrifying world of esports at our premier gaming event. Immerse yourself in the realm of competitive gaming, where top-tier gamers clash in epic battles. Witness the latest gaming innovations, join discussions on the future of esports, and experience the thrill of victory and the agony of defeat in a dynamic fusion of skill, strategy, and adrenaline.",
         timing: "As per the Brackets",
         tps: 1,
         participants: "6(5 players + 1 substitute)"
@@ -169,7 +169,7 @@ The format for the photographs to be submitted in must be <.jpeg>.
         The video must include the name of the participants and the school.
         
         The name of the video file should be labelled in the following manner: <EventName_SchoolName> and should be emailed to extraquadrata@gmail.com latest by 26th November`,
-        short: "Technnovate is an event from the ATL segment of our school to showcase the innovative models made by the participants for solving real-word problems. The event aims to bring out the scientific temperament in a student as well as contribute positively for the society.",
+        short: "Embark on a journey into the forefront of technological advancement at our extraordinary event. Immerse yourself in a realm of innovation and automation as you witness automated systems of various designs and capabilities perform astonishing feats. Explore the latest in cutting-edge technology, engage in discussions on the societal implications of automation, and experience the thrilling convergence of science, engineering, and artificial intelligence.",
         class: "6-10",
         venue: "Offline",
         timing: "nil",
