@@ -101,7 +101,7 @@ The format for the photographs to be submitted in must be <.jpeg>.
         participants: 2
     },
     {
-        name: 'Polemos',
+        name: 'Polémos',
         liveVideo: '/minecraft.mp4',
         description: `Participants can use any client of Minecraft Java Edition for the event
         The event has been divided into 2 phases: Build Battle and Bedwars.
