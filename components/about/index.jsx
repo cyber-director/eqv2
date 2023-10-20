@@ -60,7 +60,7 @@ const organizers = [
         volunteer: false,
         designation: "Team Leader of Scio",
         profile: `Aarush is studious, motivated, and very energetic. He likes to play chess and badminton. He is the house captain of Gulmohar house for classes 6th to 8th. `,
-        image: "/Aarush.jpg"
+        image: "/Aarush.jpeg"
     },
     {
         name: "Purunjay Pratap Singh",
