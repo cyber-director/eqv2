@@ -7,8 +7,8 @@ const organizers = [
         core: true,
         volunteer: false,
         designation: "Cyber Director of the student council",
-        profile: "Dhairya Garg, currently a student of class XI is an analytical, rational and keen individual. Dhairya Garg is also a quiz-zard which compliments his inquizitive and pragmatic thought process. Striving to be a Data Scientist, he is ambitious, hard working. He is an amateur poet which shows his creativity amongst logic. As a matter of fact, Dhairya Garg tries his hands on everything he gets to do, especially highlighted by his interest in Chess as well. He further believes that the quote “Technology like art is a soaring exercise of the human imagination.” stands legitimate, and emphasizes on his mindset i.e. valuing the Rationality of Mind while also looking towards the abstractness of the world we live in, in a balance.All in all, he is an extremely talented and strong willed student.",
-        image: "/Dhairya.jpeg"
+        profile: "Dhairya Garg, an incumbent student in the eleventh grade, distinguishes himself as a discerning, logical, and astute young scholar. His dexterity in solving quizzes seamlessly aligns with his inquisitive and practical approach, earning him the title of a \"quiz-zard.\" Driven by an ardent ambition to excel in the field of Data Science, he exemplifies a tireless work ethic and unwavering dedication to his pursuits. The pursuit of his creative impulses finds expression in his amateur poetry, a testament to his ability to harmoniously weave imaginative expression with structured reasoning. Manifesting a versatile disposition, Dhairya Garg fearlessly ventures into various domains, most notably evinced by his fervent engagement with the complexities of Chess. His unwavering belief in the adage, \"Technology, akin to art, represents a soaring exercise of the human imagination,\" resonates profoundly with his philosophy, underscoring a penchant for balancing the tenets of rationality with an appreciation for the abstract intricacies of our world. In sum, he emerges as a remarkably talented and resolute scholar, poised to chart a dynamic trajectory in his academic journey and beyond.",
+        image: "/Dhairya.jpg"
     },
 
     {
@@ -26,7 +26,7 @@ const organizers = [
         volunteer: false,
         designation: "Member of the Compering Team",
         profile: `He is an over-thinker. He makes small models in Blender and Studio and animates a little. He works for a few games online. He likes meeting new people. I sing online as well on my Instagram profile. Thank you.`,
-        image: "/Advay.jpeg"
+        image: "/Advay.jpg"
     },
 
     {
@@ -34,8 +34,8 @@ const organizers = [
         core: true,
         volunteer: false,
         designation: "Head of Gaming Events",
-        profile: "Buddha is an esports player and a tech enthusiast. He is a 10th grader who wants to be a pro esports athlete in the future. He also has side hobbies which include playing the guitar, footballer for his school team and does lifting aswell. He assures his total dedication in making this event a joyful one for every participant.",
-        image: "/Buddha.jpeg"
+        profile: "Buddha, a tech aficionado and former competitive eSports player, is an ambitious 11th grader with a resolute aspiration for a future in the dynamic realm of Information Technology. Alongside his passion for technology, he finds solace in strumming his guitar and displaying his athletic finesse as an integral part of his school's football team. Moreover, his dedication to fitness is evident through his commitment to weightlifting. Buddha's commitment to excellence extends beyond personal endeavors, as he fervently ensures the joy and success of every participant in every event he partakes in. With his multifaceted interests and unwavering determination, he embodies a spirit of versatility and a profound dedication to achieving his goals in both the tech industry and his extracurricular pursuits.",
+        image: "/Buddha.jpg"
     },
 
     {
@@ -46,7 +46,7 @@ const organizers = [
         profile: "Varad is an enthusiastic supporter of Free and open source software (FOSS), using and contributing to Linux. A VIM user, an upcoming programmer, and a web developer, he believes that 'Vim was the best thing created by mankind.'",
         image: "/varad.png"
     },
-    
+
     {
         name: 'Aarush Shrivastava',
         core: false,
