@@ -62,7 +62,7 @@ const organizers = [
     volunteer: false,
     designation: "Team Leader of Site Incroyable",
     profile: "Parikshit is an irenic coder, orphic gamer and an absolute curious person; He has a keen interest in almost everything and loves to know more every time. He's a great MUNer also the Vice-Chairperson for the middle-school MUN Club and a learning basketball player. His wabi-sabi skills are great with twitterpated oration and public speaking knack.",
-    image: '/Parikshit.jpeg'
+    image: '/Parikshit.jpg'
     },
 
     {
@@ -71,7 +71,7 @@ const organizers = [
     volunteer: false,
     designation: "Team Leader of Technovate, Junior Cyber Director",
     profile: "Wizard xD",
-    image: '/Parikshit.jpeg'
+    image: '/Shounak.jpg'
     },
 
     {
@@ -80,7 +80,7 @@ const organizers = [
     volunteer: false,
     designation: "Team Leader of Polémos",
     profile: "Aroma xD",
-    image: '/Parikshit.jpeg'
+    image: '/Divyansh.jpg'
     },
 
     {
@@ -89,7 +89,7 @@ const organizers = [
     volunteer: false,
     designation: "Team Member of Technovate",
     profile: "Varil",
-    image: '/Parikshit.jpeg'
+    image: '/Varil.jpg'
     },
 
     {
@@ -98,7 +98,7 @@ const organizers = [
     volunteer: false,
     designation: "Team Leader of Esthetique Art",
     profile: "AKSILAD",
-    image: '/Parikshit.jpeg'
+    image: '/Vedant.jpg'
     },
 
     {
@@ -107,7 +107,7 @@ const organizers = [
     volunteer: false,
     designation: "Team Leader of Filmskaping, Lux Captis",
     profile: "Chitransh",
-    image: '/Parikshit.jpeg'
+    image: '/Chitransh.jpg'
     },
 
     {
@@ -116,7 +116,7 @@ const organizers = [
     span2: true,
     volunteer: true,
     designation: "Member of the Compering Team",
-    image: "/Misha.jpeg",
+    image: "/Sulakshana.jpg",
     profile: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lacinia lectus et lorem feugiat, nec facilisis nulla vehicula. In condimentum odio dui, non iaculis tortor lobortis quis. Vivamus scelerisque feugiat ante, vitae euismod diam facilisis quis. Duis mauris odio, malesuada rutrum posuere et, tempor facilisis quam. Aenean a gravida sem. Donec quis mi ut risus elementum rhoncus. Vestibulum vitae lacus et libero rutrum ornare. Vestibulum porta aliquet arcu, vitae egestas eros rutrum et. Sed vitae nisl tortor. Donec tincidunt finibus nisi at bibendum. Quisque pretium, mi eget rhoncus malesuada, metus lectus vestibulum velit, in ultrices arcu felis gravida leo'
     }
 

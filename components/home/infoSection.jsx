@@ -4,7 +4,7 @@ import Link from 'next/link';
 const InfoSection = () => {
     const info = [{
         name: 'Esprit decode',
-        liveVideo: '/cover-coding-1.mp4',
+        liveVideo: '/cover-coding.mp4',
         description: `Each school can send a team of 2 participants from classes 9-12.
 Participants will be allowed to refer to documentation; however, copying code is strictly prohibited.
 The students are allowed to use Python. However, no additional modules or frameworks shall be allowed; Default libraries (for ex. math, os, time, numpy etc.) are permitted
@@ -43,7 +43,7 @@ The format for the photographs to be submitted in must be <.jpeg>.
     },
     {
         name: 'Parabellum',
-        liveVideo: '/valorant-cover.mp4',
+        liveVideo: '/cover-valorant.mp4',
         description: `
         All matches except the finals will be held online.
         Playoffs will be Best of 1, and Semi-finals and Finals will be best of 3.
@@ -83,7 +83,7 @@ The format for the photographs to be submitted in must be <.jpeg>.
     },
     {
         name: 'Scio',
-        liveVideo: '/Scio-cover.mp4',
+        liveVideo: '/cover-quiz.mp4',
         description: `
         One school can have one team registered. 
         Each team will consist of two members.
@@ -102,7 +102,7 @@ The format for the photographs to be submitted in must be <.jpeg>.
     },
     {
         name: 'Polémos',
-        liveVideo: '/minecraft.mp4',
+        liveVideo: '/cover-minecraft.mp4',
         description: `Participants can use any client of Minecraft Java Edition for the event
         The event has been divided into 2 phases: Build Battle and Bedwars.
         Participants will be tested on their creativity and survival skills
@@ -123,7 +123,7 @@ The format for the photographs to be submitted in must be <.jpeg>.
     },
     {
         name: "Esthetique Art",
-        liveVideo: "/Esthetique_art.mp4",
+        liveVideo: "/cover-art.mp4",
         description: `Each school can choose to register one participant from classes 9 to 12.
         Topic for the event will be declared on 26th November at 8:15 am.
         Participants can use any software as per their software.
@@ -161,7 +161,7 @@ The format for the photographs to be submitted in must be <.jpeg>.
     },
     {
         name: 'Technovate',
-        liveVideo: '/atl-event.mp4',
+        liveVideo: '/cover-atl-event.mp4',
         description: `Teams both from ATL as well non-ATL schools can participate in this event.
         Participants are required to propose their ideas to solve any real-world problem using Artificial Intelligence and/or STEM concepts on the given theme and make a working model or a prototype on the idea.
         Each team(consisting of four members from classes 9 to 12) has to present their working model with the help of a video.
