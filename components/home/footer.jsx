@@ -18,7 +18,7 @@ const Footer = () => {
                 </div>
                 <h4>Find us on</h4>
                 <div style={{ display: 'flex', alignItems: 'center' }}>
-                    <a href="https://discord.gg/bJEpRPnnEx" target="__blank__">
+                    <a href="https://discord.gg/9mj79NMGcx" target="__blank__">
                         <img src="/icon_clyde_white_RGB.png" alt="clyde-discord" style={{ width: '2rem' }} />
                     </a>
 

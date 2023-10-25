@@ -15,7 +15,7 @@ const organizers = [
         name: "Aarya Sharma",
         core: true,
         volunteer: false,
-        designation: "Member of the Quiz team",
+        designation: "External Co-ordinator",
         image: '/Aarya.jpeg',
         profile: `Aarya Sharma is ambitious, extremely hard working, reliable, and has good oratory skills. She is immensely passionate about dancing and is a state level volleyball player. She is also a good student with interests in poetry , philosophy, etc.`
     },
@@ -24,7 +24,7 @@ const organizers = [
         name: 'Advay Singh Yadav',
         core: true,
         volunteer: false,
-        designation: "Member of the Compering Team",
+        designation: "Head of the Compering Team, House Captain of Amaltas House",
         profile: `He is an over-thinker. He makes small models in Blender and Studio and animates a little. He works for a few games online. He likes meeting new people. I sing online as well on my Instagram profile. Thank you.`,
         image: "/Advay.jpg"
     },
@@ -115,9 +115,9 @@ const organizers = [
     core: false,
     span2: true,
     volunteer: true,
-    designation: "Member of the Compering Team",
+    designation: "Member of the Compering Team, House Captain of Gulmohar House",
     image: "/Sulakshana.jpg",
-    profile: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lacinia lectus et lorem feugiat, nec facilisis nulla vehicula. In condimentum odio dui, non iaculis tortor lobortis quis. Vivamus scelerisque feugiat ante, vitae euismod diam facilisis quis. Duis mauris odio, malesuada rutrum posuere et, tempor facilisis quam. Aenean a gravida sem. Donec quis mi ut risus elementum rhoncus. Vestibulum vitae lacus et libero rutrum ornare. Vestibulum porta aliquet arcu, vitae egestas eros rutrum et. Sed vitae nisl tortor. Donec tincidunt finibus nisi at bibendum. Quisque pretium, mi eget rhoncus malesuada, metus lectus vestibulum velit, in ultrices arcu felis gravida leo'
+    profile: 'Sulakshana is a writer, reader, film enthusiast and avid procrastinator. She works as a managing editor to a literary magazine and is published in several journals. She believes in the power of technology in the modern world, and wishes to use it to bring people (and ideas) together.'
     }
 
 ]
