@@ -6,71 +6,10 @@ const organizers = [
         name: "Dhairya Garg",
         core: true,
         volunteer: false,
-        designation: "Team Leader of Site Incroyable",
-        profile: "Dhairya is a quiz-zard and a programmer through and through. Being curious, reliable and keen individual, Dhairya has an analytical and rational mind.",
+        designation: "Cyber Director of the student council",
+        profile: "Dhairya Garg, currently a student of class XI is an analytical, rational and keen individual. Dhairya Garg is also a quiz-zard which compliments his inquizitive and pragmatic thought process. Striving to be a Data Scientist, he is ambitious, hard working. He is an amateur poet which shows his creativity amongst logic. As a matter of fact, Dhairya Garg tries his hands on everything he gets to do, especially highlighted by his interest in Chess as well. He further believes that the quote “Technology like art is a soaring exercise of the human imagination.” stands legitimate, and emphasizes on his mindset i.e. valuing the Rationality of Mind while also looking towards the abstractness of the world we live in, in a balance.All in all, he is an extremely talented and strong willed student.",
         image: "/Dhairya.jpeg"
     },
-    {
-    
-        name: "Ayush Narwariya",
-        profile: "Ayush is someone you can rely on he loves to hear your past experiences and future plans and likes to discuss abt various conspiracies regarding life, he is also a major asset for his school valorant team and he is currently pursuing his high school diploma in PCM + IP he is someone who is always ready to comfort you in any situation you'll find him lazing around with his friends either playing video games or sporting he is also a valuable asset for school E-sports team, his side hobbies include singing, playing piano and playing cricket he is someone who'll be happy to help u throughout the event.",
-        core: false,
-        volunteer: false,
-        image: "/Ayush profile.jpg",
-        designation: "Team Leader of Parabellum",
-    },
-    {
-        name: "Buddha Dev Das",
-        core: true,
-        volunteer: false,
-        designation: "Team leader of Flimscaping",
-        profile: "Buddha is an esports player and a tech enthusiast. He is a 10th grader who wants to be a pro esports athlete in the future. He also has side hobbies which include playing the guitar, footballer for his school team and does lifting aswell. He assures his total dedication in making this event a joyful one for every participant.",
-        image: "/Buddha.jpeg"
-    },
-    // {
-    //     name: "Om Pratap Dhaker",
-    //     core: false,
-    //     volunteer: false,
-    //     designation: 'Team Leader of Esprit Decode',
-    //     image: "/om.jpeg",
-    //     profile: `I am a programmer who is constantly trying to improve his skills. I am one of the prominent feather in the DPS Kolar's cap. I am a huge car fan who is basically obsessed with the JDMs'. Lastly, "I am the one who converts coffee to code".
-    //     `
-    // },
-    // {
-    //     name: "Anirudh Nagarajan",
-    //     profile: "I am a person who is reliable. I have a keen interest in almost everything and love to know more every time. I like solving problems and love challenges. One of my biggest goals has remained of being trustworthy and a good person. I am known for helping people and also do said help in the best way I can.",
-    //     core: false,
-    //     volunteer: false,
-    //     image: "/Anirudh.jpeg",
-    //     designation: "Member of the Esprit Decode team and the president of the student council",
-    // },
-
-    {
-        name: "Varad Sharma",
-        core: false,
-        volunteer: false,
-        designation: "Team Leader of the Site Incroyable",
-        profile: "Varad is an enthusiastic supporter of Free and open source software (FOSS), using and contributing to Linux. A VIM user, an upcoming programmer, and a web developer, he believes that 'Vim was the best thing created by mankind.'",
-        image: "/varad.png"
-    },
-
-    {
-        name: 'Aarush Shrivastava',
-        core: false,
-        volunteer: false,
-        designation: "Team Leader of Scio",
-        profile: `Aarush is studious, motivated, and very energetic. He likes to play chess and badminton. He is the house captain of Gulmohar house for classes 6th to 8th. `,
-        image: "/Aarush.jpeg"
-    },
-    {
-        name: "Purunjay Pratap Singh",
-        core: false,
-        volunteer: false,
-        designation: "Member of Parabellum team",
-        profile: "I'm that person you will want to be friends with. I am a memer, gamer, e-sports player and graphic designer. I love to bring positivity and joy to the world through art, design and e-sports.",
-        image: '/Purunjay.jpeg'
-    },
-
 
     {
         name: "Aarya Sharma",
@@ -89,25 +28,97 @@ const organizers = [
         profile: `He is an over-thinker. He makes small models in Blender and Studio and animates a little. He works for a few games online. He likes meeting new people. I sing online as well on my Instagram profile. Thank you.`,
         image: "/Advay.jpeg"
     },
-    {
-        name: "Misha Baniya",
-        core: false,
-        span2: true,
-        volunteer: true,
-        designation: "Member of the Compering Team",
-        image: "/Misha.jpeg",
-        profile: 'From debates to basketball and everything in between you will have her participating in all of them. From reading countless books in the comfort of her room to being the host of larger than life-scale events, she does it all. Its her open minded thoughts and the willingness to learn that makes Misha who she is. An orator and (wanna be) journalist who loves to voice and write her opinions about everything and anything as she runs on caffeine. She will interject you in forums, compete with you on the basketball court, but throughout it all she will be a dear friend, and confidant. Spending her days striving for all-around excellence and snuggling up to her four pet dogs is her daily routine that she fills in. She explores around in hopes to get better, kinder, knowledgeable, and funnier. All thing food and all thing music, from sarcasm to PJs, she tries to have it all.'
-    },
-    {
-        name: "Pranam Bharill",
-        profile: "He can be seen engaging in anything from gardening to web series. Pranam’s personal philosophy is closely related to several cognitive theories of motivation in terms of education and learning. At Delhi Public School, Kolar Road, Bhopal, he is pursuing a High School Diploma with a Humanities + Psychology emphasis. He is engaged with many non-governmental organizations to promote animal welfare and put an end to animal cruelty as a result of his love for the voiceless. He desires to gain exposure in the media. He adores unwinding in a nook with his pets while enjoying music during his free time.",
-        core: false,
-        volunteer: true,
-        designation: "Leader of the Compering Team",
-        image: "/Pranam.jpg",
-        span2: true
-    }
 
+    {
+        name: "Buddha Dev Das",
+        core: true,
+        volunteer: false,
+        designation: "Head of Gaming Events",
+        profile: "Buddha is an esports player and a tech enthusiast. He is a 10th grader who wants to be a pro esports athlete in the future. He also has side hobbies which include playing the guitar, footballer for his school team and does lifting aswell. He assures his total dedication in making this event a joyful one for every participant.",
+        image: "/Buddha.jpeg"
+    },
+
+    {
+        name: "Varad Sharma",
+        core: false,
+        volunteer: false,
+        designation: "Team Leader of the Esprit Decode",
+        profile: "Varad is an enthusiastic supporter of Free and open source software (FOSS), using and contributing to Linux. A VIM user, an upcoming programmer, and a web developer, he believes that 'Vim was the best thing created by mankind.'",
+        image: "/varad.png"
+    },
+    
+    {
+        name: 'Aarush Shrivastava',
+        core: false,
+        volunteer: false,
+        designation: "Team Leader of Scio",
+        profile: `Aarush is studious, motivated, and very energetic. He likes to play chess and badminton. He is the house captain of Gulmohar house for classes 6th to 8th. `,
+        image: "/Aarush.jpeg"
+    },
+
+    {
+    name: "Parikshit Raj Karn",
+    core: false,
+    volunteer: false,
+    designation: "Team Leader of Site Incroyable",
+    profile: "Parikshit is an irenic coder, orphic gamer and an absolute curious person; He has a keen interest in almost everything and loves to know more every time. He's a great MUNer also the Vice-Chairperson for the middle-school MUN Club and a learning basketball player. His wabi-sabi skills are great with twitterpated oration and public speaking knack.",
+    image: '/Parikshit.jpeg'
+    },
+
+    {
+    name: "Shounak Verma",
+    core: false,
+    volunteer: false,
+    designation: "Team Leader of Technovate, Junior Cyber Director",
+    profile: "Wizard xD",
+    image: '/Parikshit.jpeg'
+    },
+
+    {
+    name: "Divyansh Raj",
+    core: false,
+    volunteer: false,
+    designation: "Team Leader of Polémos",
+    profile: "Aroma xD",
+    image: '/Parikshit.jpeg'
+    },
+
+    {
+    name: "Varil Mahere",
+    core: false,
+    volunteer: false,
+    designation: "Team Member of Technovate",
+    profile: "Varil",
+    image: '/Parikshit.jpeg'
+    },
+
+    {
+    name: "Vedant Singh Thakur",
+    core: false,
+    volunteer: false,
+    designation: "Team Leader of Esthetique Art",
+    profile: "AKSILAD",
+    image: '/Parikshit.jpeg'
+    },
+
+    {
+    name: "Chitransh Agarwal",
+    core: false,
+    volunteer: false,
+    designation: "Team Leader of Filmskaping, Lux Captis",
+    profile: "Chitransh",
+    image: '/Parikshit.jpeg'
+    },
+
+    {
+    name: "Sulakshana Guha",
+    core: false,
+    span2: true,
+    volunteer: true,
+    designation: "Member of the Compering Team",
+    image: "/Misha.jpeg",
+    profile: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lacinia lectus et lorem feugiat, nec facilisis nulla vehicula. In condimentum odio dui, non iaculis tortor lobortis quis. Vivamus scelerisque feugiat ante, vitae euismod diam facilisis quis. Duis mauris odio, malesuada rutrum posuere et, tempor facilisis quam. Aenean a gravida sem. Donec quis mi ut risus elementum rhoncus. Vestibulum vitae lacus et libero rutrum ornare. Vestibulum porta aliquet arcu, vitae egestas eros rutrum et. Sed vitae nisl tortor. Donec tincidunt finibus nisi at bibendum. Quisque pretium, mi eget rhoncus malesuada, metus lectus vestibulum velit, in ultrices arcu felis gravida leo'
+    }
 
 ]
 const About = () => {

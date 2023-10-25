@@ -25,7 +25,7 @@ export default [
     "International Public School",
     "Bal Bhawan",
     "IES Public School",
-    "Army Public School"
+    "Army Public School",
     "Bal Bharti",
     "St.Montfort",
     "Iconic School"
