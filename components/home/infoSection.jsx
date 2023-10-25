@@ -24,18 +24,18 @@ const InfoSection = () => {
         liveVideo: '/cover-photography.mp4',
         description: `
         This is an individual event.
-        The participants have to submit their photographs latest by 24th November.
+        The participants have to submit their photographs 30 minutes before the end of event on 24th November.
         The themes of the event are:        1:Monochrome        2:Leading Lines.
         Each participant is required to send 2 photographs : 1 for each theme.
         Participants have to attach the raw image(if any).
         Participants are required to provide the Exif(Exchangeable Image File Format) details along with each of their entries.
         Any type of manipulation is not allowed however basic post-processing will be considered.
         Photo colour grading is strictly prohibited.
-        The format for the photographs to be submitted in must be <jpeg>.
+        The format for the photographs to be submitted in must be <jpeg>. 
         `,
         short: "Embark on a visual journey through the lens at our exclusive photography event. Elevate your appreciation of the art as we showcase the works of renowned photographers, explore cutting-edge techniques, and engage in thought-provoking discussions on visual storytelling. A harmonious convergence of artistry, innovation, and inspiration awaits.",
         venue: "Online",
-        timing: 'The last date for submission is 24th November 2023',
+        timing: 'The participants will be given 3 days to click and submit their photographs. The last date for submission is 24th November 2023',
         tps: 1,
         participants: 1
     },
@@ -53,7 +53,7 @@ const InfoSection = () => {
         Coaches are not allowed.
         `,
         venue: "Online",
-        class: "9-12",
+        class: "8-12",
         short: "Dive into the electrifying world of esports at our premier gaming event. Immerse yourself in the realm of competitive gaming, where top-tier gamers clash in epic battles. Witness the latest gaming innovations, join discussions on the future of esports, and experience the thrill of victory and the agony of defeat in a dynamic fusion of skill, strategy, and adrenaline.",
         timing: "As per the Brackets",
         tps: 1,
@@ -107,16 +107,16 @@ const InfoSection = () => {
         The event has been divided into 2 phases: Build Battle and BedWars.
         Participants will be tested on their creativity and survival skills.
         Each team will consist of 2 participants belonging to classes 6 to 8.
-        Participants have to submit a <mp4> format file showcasing their builds to our email account mentioned in the brochure, latest by 24th November, the duration of the video shouldn’t exceed 5 minutes. 
+        Participants have to submit a .mp4 file showcasing their builds to extraquadrata@gmail.com latest by 24th November, the duration of the video shouldn’t exceed 5 minutes. 
         The video should be named in the following manner: <School Name_Participant Name 1_Participant Name 2_Theme> .
         No hacked clients will be tolerated and it will lead to immediate disqualification.
-        Participants have to create their build on any of the following themes: a: The Dark Ages(Medieval Town and Castle) & b: The Grand Line (Pirate Armada).
+        Participants have to create their build on any of the following themes: a. The Dark Ages(Medieval Town and Castle) & b. The Grand Line (Pirate Armada).
         Further details of the structure of the event will be provided on the discord server.
         `,
         short: "Minecraft Bedwars and BuildBattle are thrilling minigames that captivate players by fusing strategy and creativity. Bedwars challenges teams to protect their beds while launching daring offensives, while BuildBattle lets players unleash artistic prowess within Minecraft's blocky world. These games celebrate the core spirit of Minecraft and have thrived by fostering a sense of camaraderie and endless creativity. They're a testament to the game's enduring appeal, thriving thanks to a dedicated community that constantly innovates, creating a timeless blend of strategy, artistry, and shared fun.",
         class: "6-8",
         venue: "Online + Offline",
-        timing: "As per brackets",
+        timing: "Th",
         tps: 1,
         participants: 2
     },
@@ -128,7 +128,7 @@ const InfoSection = () => {
         The participants should belong to different classes and the segment of classes 6 to 12.
         Topic for the event will be declared on 26th November at 8:15 am in the discord server.
         Participants can use any software as per their requirement.
-        Participants are required to submit images of all layers and their final artwork as <png> or <jpeg> files in a zipped folder which should be named in the following manner: <School Name_Participant Name>.
+        Participants are required to submit images of all layers and their final artwork as .png or .jpeg files in a zipped folder which should be named in the following manner: <School Name_Participant Name>.
         12 hours will be provided to create and submit the artwork. 
         Submissions after 8:30 pm will not be entertained.
         Use of Artificial Intelligence models like Midjourney and Dall-E is strictly prohibited and will lead to disqualification.
@@ -151,7 +151,9 @@ const InfoSection = () => {
         The website could be made using React, Angular, Vue, or vanilla HTML + JS/TS + CSS and any IDEs may be used as per convenience.
         For using any additional frameworks or libraries, permission from the organizing team will be required.
         The participants need to deploy the website on localhost.
-        Participants are required to develop “Infotainment” websites on any of the following topics: a: Impact of Nazi Germany and WW2 & b: Future of Space Exploration and life on the Moon.
+        Participants are required to develop “Infotainment” websites on any of the following topics:
+            -->Impact of Nazi Germany and WW2
+            -->Future of Space Exploration and life on the Moon.
         `,
         short: "Site Incroyable is a Web Development event where we test participants' masterships to create fast, efficient, optimized, and spellbinding websites. Web development languages are among the most aspired after programming skill sets, with JavaScript currently in the lead as a growing number of conventional applications move to web platforms. Web design encompasses many different skills and domains in the exhibition and supervision of websites, from ingenious design and scripting. Accessibility remains a rudimentary of any website development project, transpiring that websites are accessible by anyone, on any device, anywhere in the world.",
         class: "6-12",
@@ -175,6 +177,7 @@ const InfoSection = () => {
         short: "Embark on a journey into the forefront of technological advancement at our extraordinary event. Immerse yourself in a realm of innovation and automation as you witness automated systems of various designs and capabilities perform astonishing feats. Explore the latest in cutting-edge technology, engage in discussions on the societal implications of automation, and experience the thrilling convergence of science, engineering, and artificial intelligence.",
         class: "9-12",
         venue: "Online",
+        timing: "NIL",
         tps: 1,
         participants: 4
     }
