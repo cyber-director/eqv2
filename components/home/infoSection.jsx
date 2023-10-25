@@ -9,11 +9,11 @@ const InfoSection = () => {
         Participants will be allowed to refer to documentation; however, copying code is strictly prohibited.
         The students are allowed to use Python, However, no additional modules or frameworks shall be allowed; Default libraries (for ex: math, os, time, numpy etc) are permitted.
         The marking scheme for all questions will be conveyed by the Team Leader on the spot.
-        There will be an opportunity to gain bonus scores by solving the “Secret Problems”
+        There will be an opportunity to gain bonus scores by solving the “Secret Problems”.
         `,
         short: "The dawn of this century came with the advent of a new sport, competitive programming. This competition challenges participants' ability to produce optimized, efficient, scalable, and readable solutions to tricky questions in four highly challenging rounds. To excel at this competition, a person needs to have outstanding skills and knowledge about data structures and algorithms and either python or the javascript programming language. However, to enjoy this event, there are no such requirements. We have curated a diverse array of questions that challenge and force participants to think outside the box, some of which require little expertise while others require exceptionalism. ",
         venue: "Senior Computer Lab",
-        timing: 'The event will last for approximately 3 hours, without accounting for breaks',
+        timing: 'The event will last for approximately 3 hours, without accounting for breaks.',
         tps: 1,
         participants: 2,
         class: "8-12",
@@ -31,7 +31,7 @@ const InfoSection = () => {
         Participants are required to provide the Exif(Exchangeable Image File Format) details along with each of their entries.
         Any type of manipulation is not allowed however basic post-processing will be considered.
         Photo colour grading is strictly prohibited.
-        The format for the photographs to be submitted in must be <jpeg> 
+        The format for the photographs to be submitted in must be <jpeg>.
         `,
         short: "Embark on a visual journey through the lens at our exclusive photography event. Elevate your appreciation of the art as we showcase the works of renowned photographers, explore cutting-edge techniques, and engage in thought-provoking discussions on visual storytelling. A harmonious convergence of artistry, innovation, and inspiration awaits.",
         venue: "Online",
@@ -50,7 +50,7 @@ const InfoSection = () => {
         Players are required to play using their registered Riot Id.
         Only 3 timeouts are allowed—1 before the half, 1 after the half and 1 in overtime for each team.
         If a technical problem arises a maximum of 10 minute timeout will be given.
-        Coaches are not allowed
+        Coaches are not allowed.
         `,
         venue: "Online",
         class: "9-12",
@@ -71,7 +71,7 @@ const InfoSection = () => {
         A tour of the school will be provided.
         2 hours and 30 minutes will be given for editing the video.
         Participants are advised to bring their own devices for editing.
-        If a team is caught plagiarizing, it would be immediately disqualified
+        If a team is caught plagiarizing, it would be immediately disqualified.
         `,
         venue: "School Premises and Junior Computer Lab",
         short: "Visual forms of art dominates the world today, film making is everywhere, the world is filled with art -  the art of capturing the world and telling a story through a simple lens but conveying so much more, the art of expressing complex emotions and feelings from the simplest of objects .This event asses the ability to capture the externalities of the world  through visual media. Filmskaping will need creativity and imagination, a keen eye for details and a critical mind. This competition will also test the the participant’s knowledge and competence in technical skills like video and sound editing, and cinematography.",
@@ -90,7 +90,7 @@ const InfoSection = () => {
         The top 6 teams would qualify for the main quiz on the basis of preliminary marks.
         The quizmaster’s decision would be final and binding.
         Participants to prepare current affairs and general awareness related to Information Technology, Prominent Tech giants: their history and inventions.
-        Use of Unfair Means will lead to immediate disqualification
+        Use of Unfair Means will lead to immediate disqualification.
         `,
         short: "Quizzing is an art form for people who find solace in perpetually striving to attain more knowledge about everything. Scio tests a person's level of knowledge about current affairs and general awareness related to IT, the history of companies, and their products. Along with that, it further challenges participants by adding another layer of complexity: teamwork. Along with being well-informed, to succeed in this event, participants ought to have a strong command of communication and coordination ",
         class: "8-12",
@@ -111,7 +111,7 @@ const InfoSection = () => {
         The video should be named in the following manner: <School Name_Participant Name 1_Participant Name 2_Theme> .
         No hacked clients will be tolerated and it will lead to immediate disqualification.
         Participants have to create their build on any of the following themes: a: The Dark Ages(Medieval Town and Castle) & b: The Grand Line (Pirate Armada).
-        Further details of the structure of the event will be provided on the discord server
+        Further details of the structure of the event will be provided on the discord server.
         `,
         short: "Minecraft Bedwars and BuildBattle are thrilling minigames that captivate players by fusing strategy and creativity. Bedwars challenges teams to protect their beds while launching daring offensives, while BuildBattle lets players unleash artistic prowess within Minecraft's blocky world. These games celebrate the core spirit of Minecraft and have thrived by fostering a sense of camaraderie and endless creativity. They're a testament to the game's enduring appeal, thriving thanks to a dedicated community that constantly innovates, creating a timeless blend of strategy, artistry, and shared fun.",
         class: "6-8",
@@ -151,7 +151,7 @@ const InfoSection = () => {
         The website could be made using React, Angular, Vue, or vanilla HTML + JS/TS + CSS and any IDEs may be used as per convenience.
         For using any additional frameworks or libraries, permission from the organizing team will be required.
         The participants need to deploy the website on localhost.
-        Participants are required to develop “Infotainment” websites on any of the following topics: a: Impact of Nazi Germany and WW2 & b: Future of Space Exploration and life on the Moon
+        Participants are required to develop “Infotainment” websites on any of the following topics: a: Impact of Nazi Germany and WW2 & b: Future of Space Exploration and life on the Moon.
         `,
         short: "Site Incroyable is a Web Development event where we test participants' masterships to create fast, efficient, optimized, and spellbinding websites. Web development languages are among the most aspired after programming skill sets, with JavaScript currently in the lead as a growing number of conventional applications move to web platforms. Web design encompasses many different skills and domains in the exhibition and supervision of websites, from ingenious design and scripting. Accessibility remains a rudimentary of any website development project, transpiring that websites are accessible by anyone, on any device, anywhere in the world.",
         class: "6-12",
@@ -170,7 +170,7 @@ const InfoSection = () => {
         The length of the video should be a maximum of 3 minutes and the format should be <mp4>
         The video must include the name of the participants and the school.
         The name of the video file should be labelled in the following manner: <EventName_SchoolName> and should be emailed to extraquadrata@gmail.com latest by 26th November.
-        The top 5 teams will have a chance to present their model using the submitted video in school campus offline
+        The top 5 teams will have a chance to present their model using the submitted video in school campus offline.
         `,
         short: "Embark on a journey into the forefront of technological advancement at our extraordinary event. Immerse yourself in a realm of innovation and automation as you witness automated systems of various designs and capabilities perform astonishing feats. Explore the latest in cutting-edge technology, engage in discussions on the societal implications of automation, and experience the thrilling convergence of science, engineering, and artificial intelligence.",
         class: "9-12",
