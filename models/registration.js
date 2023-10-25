@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 const registrationSchema = new mongoose.Schema({
     event: {
         type: String,
-        enums: ['parabellum', 'photo perfecta', 'filmskaping', 'scio', 'site incroyable', 'esprit decode'],
+        enums: ['parabellum', 'lux captis', 'filmskaping', 'scio', 'site incroyable', 'esprit decode', 'technovate', ''polémos', 'esthetique art'],
         required: true
     },
     status: {
