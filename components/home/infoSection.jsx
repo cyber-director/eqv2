@@ -35,7 +35,7 @@ const InfoSection = () => {
         `,
         short: "Embark on a visual journey through the lens at our exclusive photography event. Elevate your appreciation of the art as we showcase the works of renowned photographers, explore cutting-edge techniques, and engage in thought-provoking discussions on visual storytelling. A harmonious convergence of artistry, innovation, and inspiration awaits.",
         venue: "Online",
-        timing: 'The participants will be given 3 days to click and submit their photographs. The last date for submission is 24th November 2023',
+        timing: 'The last date for submission is 24th November 2023',
         tps: 1,
         participants: 1
     },
@@ -110,13 +110,13 @@ const InfoSection = () => {
         Participants have to submit a .mp4 file showcasing their builds to extraquadrata@gmail.com latest by 24th November, the duration of the video shouldn’t exceed 5 minutes. 
         The video should be named in the following manner: <School Name_Participant Name 1_Participant Name 2_Theme> .
         No hacked clients will be tolerated and it will lead to immediate disqualification.
-        Participants have to create their build on any of the following themes: a. The Dark Ages(Medieval Town and Castle) & b. The Grand Line (Pirate Armada).
+        Participants have to create their build on any of the following themes: .-->The Dark Ages(Medieval Town and Castle) .--> The Grand Line (Pirate Armada).
         Further details of the structure of the event will be provided on the discord server
         `,
         short: "Minecraft Bedwars and BuildBattle are thrilling minigames that captivate players by fusing strategy and creativity. Bedwars challenges teams to protect their beds while launching daring offensives, while BuildBattle lets players unleash artistic prowess within Minecraft's blocky world. These games celebrate the core spirit of Minecraft and have thrived by fostering a sense of camaraderie and endless creativity. They're a testament to the game's enduring appeal, thriving thanks to a dedicated community that constantly innovates, creating a timeless blend of strategy, artistry, and shared fun.",
         class: "6-8",
         venue: "Online + Offline",
-        timing: "Th",
+        timing: "According to brackets",
         tps: 1,
         participants: 2
     },
@@ -152,8 +152,8 @@ const InfoSection = () => {
         For using any additional frameworks or libraries, permission from the organizing team will be required.
         The participants need to deploy the website on localhost.
         Participants are required to develop “Infotainment” websites on any of the following topics:
-            -->Impact of Nazi Germany and WW2
-            -->Future of Space Exploration and life on the Moon
+            .-->Impact of Nazi Germany and WW2
+            .-->Future of Space Exploration and life on the Moon
         `,
         short: "Site Incroyable is a Web Development event where we test participants' masterships to create fast, efficient, optimized, and spellbinding websites. Web development languages are among the most aspired after programming skill sets, with JavaScript currently in the lead as a growing number of conventional applications move to web platforms. Web design encompasses many different skills and domains in the exhibition and supervision of websites, from ingenious design and scripting. Accessibility remains a rudimentary of any website development project, transpiring that websites are accessible by anyone, on any device, anywhere in the world.",
         class: "6-12",
