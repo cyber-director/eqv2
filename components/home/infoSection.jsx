@@ -5,9 +5,9 @@ const InfoSection = () => {
     const info = [{
         name: 'Esprit decode',
         liveVideo: '/cover-coding.mp4',
-        description: `Each school can send a team of 2 participants from classes 8-12
-        Participants will be allowed to refer to documentation; however, copying code is strictly prohibited
-        The students are allowed to use Python. However, no additional modules or frameworks shall be allowed. Default libraries (for ex. math, os, time, numpy etc.) are permitted
+        description: `Each school can send a team of 2 participants from classes 8-12.
+        Participants will be allowed to refer to documentation; however, copying code is strictly prohibited.
+        The students are allowed to use Python\. However, no additional modules or frameworks shall be allowed. Default libraries (for ex\. math, os, time, numpy etc\.) are permitted
         The marking scheme for all questions will be conveyed by the Team Leader on the spot
         There will be an opportunity to gain bonus scores by solving the “Secret Problems””
         `,
