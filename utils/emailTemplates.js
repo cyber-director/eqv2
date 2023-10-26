@@ -16,7 +16,7 @@ export const verifyEmail = (member, event, link, link2) => {
     </div>
 </div>
 <div style="background-color:black; text-align:center; padding:2rem; color:white;"> 
-  <p style="margin-top:0"> © 2022 Extra Quadrata, Headway, DPS Kolar Road Bhopal
+  <p style="margin-top:0"> © 2023 Extra Quadrata, Headway, DPS Kolar Road Bhopal
   <p style="color:white; text-decoration:none">For more information, click <a style="color:white" href=${process.env.ADDRESS}>here</a></p> 
 </div>`;
 };
@@ -40,7 +40,7 @@ export const checkRegistrationStatus = (member, eventName, link, link2) => {
     </div>
 </div>
 <div style="background-color:black; text-align:center; padding:2rem; color:white;"> 
-  <p style="margin-top:0"> © 2022 Extra Quadrata, Headway, DPS Kolar Road Bhopal
+  <p style="margin-top:0"> © 2023 Extra Quadrata, Headway, DPS Kolar Road Bhopal
   <p style="color:white; text-decoration:none">For more information, click <a style="color:white" href=${process.env.ADDRESS}>here</a></p> 
 </div>`;
 };
@@ -96,5 +96,20 @@ export const registrationDenied = (member, eventName, link) => {
   <div style="background-color:black; text-align:center; padding:2rem; color:white;"> 
     <p style="margin-top:0"> © 2022 Extra Quadrata, Headway, DPS Kolar Road Bhopal </p>
     <p style="color:white; text-decoration:none">For more information, click <a style="color:white" href=${process.env.ADDRESS}>here</a></p> 
+</div>`;
+};
+
+export const registerationRequest = (team, teamId, event, school) => {
+  return `  <div style="background-color:#011620; padding:2rem;margin:0">
+  <div style="color:white">
+    <h3>Greeting, Admin</h3>
+    <p>
+      ${team.name}'s registeration request for the team ${teamId} for the event ${event} by ${school}
+    </p>
+  </div>
+</div>
+<div style="background-color:black; text-align:center; padding:2rem; color:white;"> 
+  <p style="margin-top:0"> © 2023 Extra Quadrata, Headway, DPS Kolar Road Bhopal </p>
+  <p style="color:white; text-decoration:none">For more information, click <a style="color:white" href=${process.env.ADDRESS}>here</a></p> 
 </div>`;
 };

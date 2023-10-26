@@ -102,9 +102,9 @@ const Admin = () => {
     let siteRegistrations = state.registrations.filter(reg => reg.registration.event === "Site Incroyable");
     let scioRegistrations = state.registrations.filter(reg => reg.registration.event === "Scio");
     let filmskapingRegistrations = state.registrations.filter(reg => reg.registration.event === "Filmskaping");
-    let photoPerfectaRegistrations = state.registrations.filter(reg => reg.registration.event === "Photo Perfecta");
+    let photoPerfectaRegistrations = state.registrations.filter(reg => reg.registration.event === "Lux Captis");
     let esthetiqueArtRegisterations = state.registrations.filter(reg => reg.registration.event === "Esthetique Art");
-    let minecraftRegisterations = state.registrations.filter(reg => reg.registration.event === "Minecraft");
+    let minecraftRegisterations = state.registrations.filter(reg => reg.registration.event === "Polemos");
     let espritEmails = (state.registrations.filter(a => a.registration.event === "Esprit Decode").map(a => {
         return a.team.members.map(b => {
             return b.email.toLowerCase();

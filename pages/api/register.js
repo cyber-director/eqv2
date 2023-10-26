@@ -3,7 +3,7 @@ import Team from "../../models/team";
 import Member from "../../models/member";
 import Verify from "../../models/verify";
 import connect from "../../utils/mongoDBConnector";
-import { checkRegistration, verifyEmail } from "../../utils/emails";
+import { checkRegistration, verifyEmail, newRegistarion } from "../../utils/emails";
 import { v4 as uuid } from "uuid";
 import eventValidator from "../../utils/eventValidator";
 
@@ -61,6 +61,7 @@ const Handler = async (req, res) => {
 
                 await verifyEmail(member, registration._id, verify.code, event);
                 await checkRegistration(member, registration._id, event);
+                await newRegistarion(member, registration.team, event, team.school);
             }
 
             return res.status(200).json({ message: "Team registered" });
