@@ -13,6 +13,7 @@ import connect from '../../../utils/mongoDBConnector';
 
 const Handler = async (req, res) => {
     try {
+        connect();
 
         if (req.method === 'POST') {
             const {
