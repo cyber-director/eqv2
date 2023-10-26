@@ -79,7 +79,7 @@ const organizers = [
     core: false,
     volunteer: false,
     designation: "Team Leader of Polémos",
-    profile: "Aroma xD",
+    profile: "Divyansh is an enthusiastic Class 8 student with a profound passion for gaming. From mastering complex strategies in MOBA games to exploring virtual worlds in RPGs, his love for gaming knows no bounds. He spends his free time honing his skills in competitive online tournaments and eagerly anticipates the latest gaming releases.",
     image: '/Divyansh.jpg'
     },
 
