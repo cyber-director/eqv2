@@ -38,7 +38,7 @@ const info = [{
 {
     name: 'Polemos',
     liveVideo: '/minecraft.mp4',
-    link: 'register/proelium'
+    link: 'register/polemos'
 },
 {
     name: 'Technovate',

@@ -100,7 +100,7 @@ const InfoSection = () => {
         participants: 2
     },
     {
-        name: 'Polémos',
+        name: 'Polemos',
         liveVideo: '/cover-minecraft.mp4',
         description: `
         Participants can use any client of Minecraft Java Edition for the event.

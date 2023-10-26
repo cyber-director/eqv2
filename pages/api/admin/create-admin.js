@@ -25,7 +25,7 @@ const handler = async (req, res) => {
                 });
             }
             let salt = await bcrypt.genSalt(10)
-            let p = await bcrypt.hashSync(password, salt);
+            let p = bcrypt.hashSync(password, salt);
             const admin = new admins({
                 email: email,
                 name: name,
