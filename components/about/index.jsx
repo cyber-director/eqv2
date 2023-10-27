@@ -71,7 +71,7 @@ const organizers = [
     volunteer: false,
     designation: "Team Leader of Technovate, Junior Cyber Director",
     profile: "Wizard xD",
-    image: '/Shounak.jpg'
+    image: '/Shonks.webp'
     },
 
     {
