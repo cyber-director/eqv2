@@ -75,49 +75,49 @@ const organizers = [
     },
 
     {
-    name: "Divyansh Raj",
-    core: false,
-    volunteer: false,
-    designation: "Team Leader of Polémos",
-    profile: "Divyansh is an enthusiastic Class 8 student with a profound passion for gaming. From mastering complex strategies in MOBA games to exploring virtual worlds in RPGs, his love for gaming knows no bounds. He spends his free time honing his skills in competitive online tournaments and eagerly anticipates the latest gaming releases.",
-    image: '/Divyansh.jpg'
+        name: "Divyansh Raj",
+        core: false,
+        volunteer: false,
+        designation: "Team Leader of Polémos",
+        profile: "Divyansh is an enthusiastic Class 8 student with a profound passion for gaming. From mastering complex strategies in MOBA games to exploring virtual worlds in RPGs, his love for gaming knows no bounds. He spends his free time honing his skills in competitive online tournaments and eagerly anticipates the latest gaming releases.",
+        image: '/Divyansh.jpg'
     },
 
     {
-    name: "Varil Mahere",
-    core: false,
-    volunteer: false,
-    designation: "Team Member of Technovate",
-    profile: "Varil",
-    image: '/Varil.jpg'
+        name: "Varil Mahere",
+        core: false,
+        volunteer: false,
+        designation: "Team Member of Technovate",
+        profile: "Varil",
+        image: '/Varil.jpg'
     },
 
     {
-    name: "Vedant Singh Thakur",
-    core: false,
-    volunteer: false,
-    designation: "Team Leader of Esthetique Art",
-    profile: "AKSILAD",
-    image: '/Vedant.jpg'
+        name: "Vedant Singh Thakur",
+        core: false,
+        volunteer: false,
+        designation: "Team Leader of Esthetique Art",
+        profile: "AKSILAD",
+        image: '/Vedant.jpg'
     },
 
     {
-    name: "Chitransh Agarwal",
-    core: false,
-    volunteer: false,
-    designation: "Team Leader of Filmskaping, Lux Captis",
-    profile: "Chitransh",
-    image: '/Chitransh.jpg'
+        name: "Chitransh Agarwal",
+        core: false,
+        volunteer: false,
+        designation: "Team Leader of Filmskaping, Lux Captis",
+        profile: "Chitransh",
+        image: '/Chitransh.jpg'
     },
 
     {
-    name: "Sulakshana Guha",
-    core: false,
-    span2: true,
-    volunteer: true,
-    designation: "Member of the Compering Team, House Captain of Gulmohar House",
-    image: "/Sulakshana.jpg",
-    profile: 'Sulakshana is a writer, reader, film enthusiast and avid procrastinator. She works as a managing editor to a literary magazine and is published in several journals. She believes in the power of technology in the modern world, and wishes to use it to bring people (and ideas) together.'
+        name: "Sulakshana Guha",
+        core: false,
+        span2: true,
+        volunteer: true,
+        designation: "Member of the Compering Team, House Captain of Gulmohar House",
+        image: "/Sulakshana.jpg",
+        profile: 'Sulakshana is a writer, reader, film enthusiast and avid procrastinator. She works as a managing editor to a literary magazine and is published in several journals. She believes in the power of technology in the modern world, and wishes to use it to bring people (and ideas) together.'
     }
 
 ]
