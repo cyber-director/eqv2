@@ -52,26 +52,26 @@ const organizers = [
         core: false,
         volunteer: false,
         designation: "Team Leader of Scio",
-        profile: `Aarush is studious, motivated, and very energetic. He likes to play chess and badminton. He is the house captain of Gulmohar house for classes 6th to 8th. `,
-        image: "/Aarush.jpeg"
+        profile: `Aarush Shrivastava is an enterprising 9th grader currently studying at DPS Kolar. He is a curious quiz-zard, massive memelord and a true technology connoisseur. He is fond of Mathematics, Artificial Intelligence, and Economics. When he’s free, you can find him gaming or playing chess. He takes a great interest in debating, understanding foreign relations and getting to know about the latest happenings of the world. He is associated with the school’s ATL and aspires to make an Artificially Intelligent robot this year.`,
+        image: "/Aarush.jpg"
     },
 
     {
-    name: "Parikshit Raj Karn",
-    core: false,
-    volunteer: false,
-    designation: "Team Leader of Site Incroyable",
-    profile: "Parikshit is an irenic coder, orphic gamer and an absolute curious person; He has a keen interest in almost everything and loves to know more every time. He's a great MUNer also the Vice-Chairperson for the middle-school MUN Club and a learning basketball player. His wabi-sabi skills are great with twitterpated oration and public speaking knack.",
-    image: '/Parikshit.jpg'
+        name: "Parikshit Raj Karn",
+        core: false,
+        volunteer: false,
+        designation: "Team Leader of Site Incroyable",
+        profile: "Parikshit is an irenic coder, orphic gamer and an absolute curious person; He has a keen interest in almost everything and loves to know more every time. He's a great MUNer also the Vice-Chairperson for the middle-school MUN Club and a learning basketball player. His wabi-sabi skills are great with twitterpated oration and public speaking knack.",
+        image: '/Parikshit.jpg'
     },
 
     {
-    name: "Shounak Verma",
-    core: false,
-    volunteer: false,
-    designation: "Team Leader of Technovate, Junior Cyber Director",
-    profile: "Wizard xD",
-    image: '/Shonks.webp'
+        name: "Shounak Verma",
+        core: false,
+        volunteer: false,
+        designation: "Team Leader of Technovate, Junior Cyber Director",
+        profile: "Wizard xD",
+        image: '/Shonks.webp'
     },
 
     {
