@@ -17,7 +17,7 @@ const organizers = [
         volunteer: false,
         designation: "External Co-ordinator",
         image: '/Aarya.jpeg',
-        profile: `Aarya Sharma is ambitious, extremely hard working, reliable, and has good oratory skills. She is immensely passionate about dancing and is a state level volleyball player. She is also a good student with interests in poetry , philosophy, etc.`
+        profile: `Aarya Sharma is driven by her ambition, displaying exceptional dedication, reliability, and impressive oratory prowess. Her profound love for dancing is evident, coupled with her achievements as a state-level volleyball player. Aarya excels academically, showcasing a keen interest in diverse fields such as poetry and philosophy. Delving into the intricacies of poetic expression and philosophical contemplation, she demonstrates a multifaceted approach to learning. A quick-witted and dynamic individual, Aarya's holistic engagement with various disciplines reflects her curiosity and open-mindedness. With a strong work ethic and a passion for both sports and intellectual exploration, Aarya embodies a well-rounded persona, poised for continued success and personal growth.`
     },
 
     {
@@ -25,7 +25,7 @@ const organizers = [
         core: true,
         volunteer: false,
         designation: "Head of the Compering Team, House Captain of Amaltas House",
-        profile: `He is an over-thinker. He makes small models in Blender and Studio and animates a little. He works for a few games online. He likes meeting new people. I sing online as well on my Instagram profile. Thank you.`,
+        profile: `MUNs, debates, writing, speaking, reading, and in general, a lot of talking—that's Advay. He prefers to be called Aadi due to frequent mispronunciations of his name, which heavily triggers him. Advay has actively participated in various projects, including social clubs like Gilehariya, and currently serves as a content writer for India's first student-run Interscholastic newsletter, The Revolution. Additionally, he has engaged with cultural organizations like AFS as a participant. Advay is known for his tendency to overthink and his penchant for taking on various tasks. He effortlessly generates puns and enjoys work that requires effective management. With a love for socializing, he looks forward to meeting and welcoming everyone to DPSK Tech Fest 2.0.`,
         image: "/Advay.jpg"
     },
 
@@ -97,7 +97,7 @@ const organizers = [
         core: false,
         volunteer: false,
         designation: "Team Leader of Esthetique Art",
-        profile: "AKSILAD",
+        profile: "Vedant Singh is a creative student artist known for his diverse exploration of artistic mediums and his dedication to both art and academics. With a strong focus on visual storytelling, he inspires fellow artists with his collaborative spirit and experimental approach, showing a promising future in both artistic growth and academic excellence.",
         image: '/Vedant.jpg'
     },
 
@@ -106,7 +106,7 @@ const organizers = [
         core: false,
         volunteer: false,
         designation: "Team Leader of Filmskaping, Lux Captis",
-        profile: "Chitransh",
+        profile: "Chitransh is a curious and dedicated learner, known for his strong work ethic and collaborative spirit. Eager to explore new horizons, he actively engages in various academic pursuits, demonstrating a proactive approach to learning. With a bright future ahead, Chitransh continues to inspire his peers and educators through his enthusiasm and commitment to personal and academic growth.",
         image: '/Chitransh.jpg'
     },
 
