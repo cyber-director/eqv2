@@ -56,11 +56,11 @@ const organizers = [
 
     {
         name: 'Aarush Shrivastava',
-        core: false,
+        core: true,
         volunteer: false,
         designation: "Team Leader of Scio",
         profile: `Aarush Shrivastava is an enterprising 9th grader currently studying at DPS Kolar. He is a curious quiz-zard, massive memelord and a true technology connoisseur. He is fond of Mathematics, Artificial Intelligence, and Economics. When he’s free, you can find him gaming or playing chess. He takes a great interest in debating, understanding foreign relations and getting to know about the latest happenings of the world. He is associated with the school’s ATL and aspires to make an Artificially Intelligent robot this year.`,
-        image: "/Aarush.jpg",
+        image: "/Aarush.png",
         insta:"imaegga"
     },
 
@@ -165,7 +165,7 @@ const About = () => {
 
                                 <img className='about-organizers-each-image' src={organizer.image} alt={organizer.name + "picture"} />
                                 <div>
-                                    <h4 className='about-organizers-each-name'>{organizer.name}  <a href={'https://www.instagram.com/'+organizers.insta}><InstagramIcon /></a></h4>
+                                    <h4 className='about-organizers-each-name'>{organizer.name}<a className='about-organizers-insta' href={`https://www.instagram.com/${organizer.insta}`}><InstagramIcon /></a></h4>
                                     <p className='about-organizers-each-profile'>{organizer.designation}</p>
                                 </div>
                             </div>
@@ -185,11 +185,13 @@ const About = () => {
                         <div className='about-organizers-each-header'>
 
                             <p className='about-organizers-each-profile'>{organizer.profile}</p>
-
+<<<<<<< HEAD
                             <h4 className='about-organizers-each-name'>{organizer.name}<a className='about-organizers-insta' href={`https://www.instagram.com/${organizer.insta}`}><InstagramIcon /></a></h4>
 
-                            <h4 className='about-organizers-each-name'>{organizer.name}  <a href={'https://www.instagram.com/'+organizers.insta}><InstagramIcon /></a></h4>
-
+=======
+                            <h4 className='about-organizers-each-name'>{organizer.name}</h4>
+                            <a href={'https://www.instagram.com/'+organizers.insta}><InstagramIcon /></a>
+>>>>>>> 232467c506ad6d7255fc73de26d4cf67ebecb519
                             <p className='about-organizers-each-profile'>{organizer.designation}</p>
                         </div>
                     </div>)
@@ -207,11 +209,13 @@ const About = () => {
                         <div className='about-organizers-each-header'>
 
                             <p className='about-organizers-each-profile'>{organizer.profile}</p>
+<<<<<<< HEAD
                             <h4 className='about-organizers-each-name'>{organizer.name}<a className='about-organizers-insta' href={`https://www.instagram.com/${organizer.insta}`}><InstagramIcon /></a></h4>
 
-                            <h4 className='about-organizers-each-name'>{organizer.name}  <a href={'https://www.instagram.com/'+organizers.insta}><InstagramIcon /></a></h4>
-
-
+=======
+                            <h4 className='about-organizers-each-name'>{organizer.name}</h4>
+                            <a href={'https://www.instagram.com/'+organizers.insta}><InstagramIcon /></a>
+>>>>>>> 232467c506ad6d7255fc73de26d4cf67ebecb519
                             <p className='about-organizers-each-profile'>{organizer.designation}</p>
                         </div>
                     </div>)
