@@ -70,7 +70,7 @@ const organizers = [
         core: false,
         volunteer: false,
         designation: "Team Leader of Technovate, Junior Cyber Director",
-        profile: "Wizard xD",
+        profile: "Shounak Verma, an aspiring student, aims for a career in robotics, particularly in the Internet of Things. Actively engaged in the ATL Lab, he has excelled in related competitions. Cycling uphill is his top pastime, fueling his diverse array of hobbies and ambitions.",
         image: '/Shounak.jpg'
     },
 
@@ -88,7 +88,7 @@ const organizers = [
         core: false,
         volunteer: false,
         designation: "Team Member of Technovate",
-        profile: "Varil",
+        profile: "Varil Mahere, a bright ninth-grade student, has a keen interest in Artificial Intelligence, exploring its models and delving into data analytics. Passionate and driven, he is constantly seeking to expand his knowledge in this dynamic field.",
         image: '/Varil.jpg'
     },
 
