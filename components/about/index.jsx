@@ -71,7 +71,7 @@ const organizers = [
         volunteer: false,
         designation: "Team Leader of Technovate, Junior Cyber Director",
         profile: "Wizard xD",
-        image: '/Shonks.webp'
+        image: '/Shounak.jpg'
     },
 
     {
@@ -107,7 +107,7 @@ const organizers = [
         volunteer: false,
         designation: "Team Leader of Filmskaping, Lux Captis",
         profile: "Chitransh is a curious and dedicated learner, known for his strong work ethic and collaborative spirit. Eager to explore new horizons, he actively engages in various academic pursuits, demonstrating a proactive approach to learning. With a bright future ahead, Chitransh continues to inspire his peers and educators through his enthusiasm and commitment to personal and academic growth.",
-        image: '/Chitransh.jpg'
+        image: '/Chitransh.JPG'
     },
 
     {
