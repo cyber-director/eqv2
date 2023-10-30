@@ -1270,6 +1270,12 @@ body {
     grid-template-columns: 1fr;
   }
 }
+.about-organizers-insta {
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+  padding-right: 0.5rem;
+}
 .about-organizers-each {
   align-self: start;
   position: relative;
