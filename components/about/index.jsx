@@ -1,5 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import React from 'react';
+import InstagramIcon from "@mui/icons-material/Instagram";
 
 const organizers = [
     {
@@ -8,7 +9,8 @@ const organizers = [
         volunteer: false,
         designation: "Cyber Director of the student council",
         profile: "Dhairya Garg, an incumbent student in the eleventh grade, distinguishes himself as a discerning, logical, and astute young scholar. His dexterity in solving quizzes seamlessly aligns with his inquisitive and practical approach, earning him the title of a \"quiz-zard.\" Driven by an ardent ambition to excel in the field of Data Science, he exemplifies a tireless work ethic and unwavering dedication to his pursuits. The pursuit of his creative impulses finds expression in his amateur poetry, a testament to his ability to harmoniously weave imaginative expression with structured reasoning. Manifesting a versatile disposition, Dhairya Garg fearlessly ventures into various domains, most notably evinced by his fervent engagement with the complexities of Chess. His unwavering belief in the adage, \"Technology, akin to art, represents a soaring exercise of the human imagination,\" resonates profoundly with his philosophy, underscoring a penchant for balancing the tenets of rationality with an appreciation for the abstract intricacies of our world. In sum, he emerges as a remarkably talented and resolute scholar, poised to chart a dynamic trajectory in his academic journey and beyond.",
-        image: "/Dhairya.jpg"
+        image: "/Dhairya.jpg",
+        insta: "dhairyagarg7"
     },
 
     {
@@ -151,6 +153,7 @@ const About = () => {
                                 <img className='about-organizers-each-image' src={organizer.image} alt={organizer.name + "picture"} />
                                 <div>
                                     <h4 className='about-organizers-each-name'>{organizer.name}</h4>
+                                    <a href={'https://www.instagram.com/'+organizers.insta}><InstagramIcon /></a>
                                     <p className='about-organizers-each-profile'>{organizer.designation}</p>
                                 </div>
                             </div>
