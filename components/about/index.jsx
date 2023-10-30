@@ -59,7 +59,7 @@ const organizers = [
         volunteer: false,
         designation: "Team Leader of Scio",
         profile: `Aarush Shrivastava is an enterprising 9th grader currently studying at DPS Kolar. He is a curious quiz-zard, massive memelord and a true technology connoisseur. He is fond of Mathematics, Artificial Intelligence, and Economics. When he’s free, you can find him gaming or playing chess. He takes a great interest in debating, understanding foreign relations and getting to know about the latest happenings of the world. He is associated with the school’s ATL and aspires to make an Artificially Intelligent robot this year.`,
-        image: "/Aarush.jpg",
+        image: "/Aarush.jpeg",
         insta:"imaegga"
     },
 
