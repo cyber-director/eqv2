@@ -1273,8 +1273,12 @@ body {
 .about-organizers-insta {
   text-decoration: none;
   display: inline-block;
-  color: white;
+  color: rgb(254,218,119);
+  color: linear-gradient(29deg, rgba(254,218,119,1) 0%, rgba(245,133,41,1) 19%, rgba(221,42,123,1) 48%, rgba(129,52,175,1) 80%, rgba(81,91,212,1) 100%);
   padding-right: 0.5rem;
+}
+.about-organizers-insta:hover{
+  box-shadow: hsla(0, 0%, 100%, 0.4) ;
 }
 .about-organizers-each {
   align-self: start;
