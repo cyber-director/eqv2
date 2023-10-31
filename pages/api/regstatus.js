@@ -13,6 +13,7 @@ const Handler = async (req, res) => {
                 registration.status = req.body.status;
                 console.log(registration);
                 await registration.save();
+                return res.status(200).json({status: "Approved"});
             }
         } catch (e) {
             console.log(e);
