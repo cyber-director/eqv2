@@ -1,5 +1,10 @@
+// Mongo Related Inouts
 import connect from '../../utils/mongoDBConnector';
 import Register from '../../models/registration';
+import Member from "../../models/member";
+
+// Mail Inputs
+import {regReq} from "../../utils/emails";
 
 const Handler = async (req, res) => {
     if (req.method === "POST") {
@@ -13,7 +18,14 @@ const Handler = async (req, res) => {
                 registration.status = req.body.status;
                 console.log(registration);
                 await registration.save();
-                return res.status(200).json({status: "Approved"});
+                const member = await Member.findOne({_id: req.body.team});
+
+                if (!member) {
+                    return res.status(404).json({error: "related member not found"});
+                } else {
+                    await regReq(member, registration);
+                    return res.status(200).json({status: "Approved"});
+                }
             }
         } catch (e) {
             console.log(e);

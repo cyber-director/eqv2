@@ -1,10 +1,13 @@
+import member from "../models/member";
+
 const MailJet = require("node-mailjet");
 
 import {
     checkRegistrationStatus,
     registrationCanceled,
     verifyEmail as verify,
-    registerationRequest
+    registerationRequest,
+    registrationAccepted,
 } from './emailTemplates';
 const mailJet = new MailJet({
     apiKey: process.env.mailJetApi,
@@ -129,4 +132,26 @@ export const newRegistarion = async (member, teamId, event, school) => {
             },],
         });
     await email
+}
+export const regReq = async (member, event) => {
+        const email = mailJet
+            .post("send", {
+                version: "v3.1"
+            })
+            .request({
+                Messages: [{
+                    From: {
+                        Email: "683@student.dpskolar.org",
+                        Name: `ExtraQuadrata`,
+                    },
+                    To: [{
+                        Email: `${member.email}`,
+                        Name: `${member.name}`,
+                    },],
+                    Subject: `Registration update for the ${event} event`,
+                    HTMLPart: registrationAccepted(member, event)
+                },],
+            });
+        await email
+
 }
