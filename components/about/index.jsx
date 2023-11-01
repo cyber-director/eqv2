@@ -44,7 +44,7 @@ const organizers = [
         volunteer: false,
         designation: "Founder",
         profile: `Aadya is known for doing absolutely everything they can get their hands on, this is reflected in their portfolio. They’ve collaborated with multiple youth-run non-profits to spread awareness as well as crowdfunding. They’ve managed the social media page for a local renowned handicraft store. They are a published poet that’s always looking for an excuse to bring it up in a conversation. They are a self starter with the experience of organizing multiple experiences. In their spare time, you can find them snuggled in a corner with their cats reading Donna Tartt or some obscure contemporary poet. A sure way to get them to pay attention to you would be to start a debate on acrylic v. oil paint. They are the most approachable of the bunch(you are encouraged to reach out to them for absolutely anything you need or want). Their love for all things cheesy and sappy overwhelms their work.`,
-        image: "/Aadya.jpg",
+        image: "/Aadya.jpeg",
         insta: "peehuspeare"
     },
 
