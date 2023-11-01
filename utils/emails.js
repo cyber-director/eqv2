@@ -24,12 +24,12 @@ export const contactEmail = async (n, email, message) => {
     .request({
         Messages: [{
             From: {
-                Email: "683@student.dpskolar.org",
-                Name: `Extra Quadrata`,
-            },
-            To: [{
                 Email: `${email}`,
                 Name: `${n}`,
+            },
+            To: [{
+                Email: "extraquadrata@gmail.com",
+                Name: `Extraquadrata`,
             },],
             Subject: `You recieved a message from ${n}`,
             TextPart: '',
