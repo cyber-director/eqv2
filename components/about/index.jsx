@@ -222,7 +222,7 @@ const About = () => {
 
                                 <img className='about-organizers-each-image' src={organizer.image} alt={organizer.name + "picture"} />
                                 <div>
-                                    <h4 className='about-organizers-each-name'>{organizer.name}<a className='about-organizers-insta' href={`https://www.instagram.com/${organizer.insta}`}><InstagramIcon /></a></h4>
+                                    <h4 className='about-organizers-each-name'>{organizer.name}<a className='about-organizers-insta' href={`https://www.instagram.com/${organizer.insta}`} target='#'><InstagramIcon /></a></h4>
                                     <p className='about-organizers-each-profile'>{organizer.designation}</p>
                                 </div>
                             </div>
@@ -243,7 +243,7 @@ const About = () => {
 
                                 <img className='about-organizers-each-image' src={organizer.image} alt={organizer.name + "picture"} />
                                 <div>
-                                    <h4 className='about-organizers-each-name'>{organizer.name}<a className='about-organizers-insta' href={`https://www.instagram.com/${organizer.insta}`}><InstagramIcon /></a></h4>
+                                    <h4 className='about-organizers-each-name'>{organizer.name}<a className='about-organizers-insta' href={`https://www.instagram.com/${organizer.insta}`} target='#'><InstagramIcon /></a></h4>
                                     <p className='about-organizers-each-profile'>{organizer.designation}</p>
                                 </div>
                             </div>
@@ -262,7 +262,7 @@ const About = () => {
                         </div>
                         <div className='about-organizers-each-header'>
                             <p className='about-organizers-each-profile'>{organizer.profile}</p>
-                            <h4 className='about-organizers-each-name'>{organizer.name}<a className='about-organizers-insta' href={`https://www.instagram.com/${organizer.insta}`}><InstagramIcon /></a></h4>
+                            <h4 className='about-organizers-each-name'>{organizer.name}<a className='about-organizers-insta' href={`https://www.instagram.com/${organizer.insta}`} target='#'><InstagramIcon /></a></h4>
                             <p className='about-organizers-each-profile'>{organizer.designation}</p>
                         </div>
                     </div>)
@@ -280,8 +280,7 @@ const About = () => {
                         <div className='about-organizers-each-header'>
 
                             <p className='about-organizers-each-profile'>{organizer.profile}</p>
-                            <h4 className='about-organizers-each-name'>{organizer.name}<a className='about-organizers-insta' href={`https://www.instagram.com/${organizer.insta}`}><InstagramIcon /></a></h4>
-                            <a href={'https://www.instagram.com/'+organizers.insta}><InstagramIcon /></a>
+                            <h4 className='about-organizers-each-name'>{organizer.name}<a className='about-organizers-insta' href={`https://www.instagram.com/${organizer.insta}`} target='#'><InstagramIcon /></a></h4>
 
                             <p className='about-organizers-each-profile'>{organizer.designation}</p>
                         </div>
