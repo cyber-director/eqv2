@@ -66,10 +66,10 @@ const InfoSection = () => {
         A team must comprise of 2 members from classes 9 to 12.
         The topic will be provided on the spot.
         The Video's length should not exceed 3 minutes.
-        Participants will have to record the video in our school within the time limit of 30 minutes.
+        Participants will have to record the video in our school within the time limit of 1 hour.
         A preset of school videos will also be provided.
         A tour of the school will be provided.
-        2 hours and 30 minutes will be given for editing the video.
+        2 hours will be given for editing the video.
         Participants are advised to bring their own devices for editing.
         If a team is caught plagiarizing, it would be immediately disqualified
         `,
