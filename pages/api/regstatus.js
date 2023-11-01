@@ -21,9 +21,9 @@ const Handler = async (req, res) => {
                 const member = await Member.findOne({_id: req.body.team});
 
                 if (!member) {
-                    return res.status(404).json({error: "related member not found"});
+                    // return res.status(404).json({error: "related member not found"});
                 } else {
-                    await regReq(member, registration);
+                    // await regReq(member, registration);
                     return res.status(200).json({status: "Approved"});
                 }
             }

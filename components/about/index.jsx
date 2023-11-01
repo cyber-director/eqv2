@@ -5,7 +5,52 @@ import InstagramIcon from "@mui/icons-material/Instagram";
 
 const organizers = [
     {
+        name: "Shreshth Verma",
+        founder: true,
+        core: false,
+        volunteer: false,
+        designation: "Founder",
+        profile: `Shreshth, a visionary and founding member of the Extra Quadrata core team, redefined the tech fest. As the mastermind behind its inception, he drove every aspect of the event. Shreshth assembled a diverse organizing team, wrote event questions, and mentored students, ensuring the festival's success. His impact extended further as he created the event's website and code, which became an integral part of Extra Quadrata's second version. His visionary leadership and dedication set the festival's standard. Now, Shreshth is pursuing a Bachelor of Advanced Computing at the globally acclaimed University of Sydney, ranked 19th worldwide. He's also a Daylell Scholar, marking his exceptional academic achievements. His journey as a student and tech visionary continues to inspire and shape the future of Extra Quadrata. You can read more about him on his website: https://www.shreshthverma.me`,
+        image: "/Shreshth.jpg",
+        insta: "shreshthverm"
+    },
+
+    {
+        name: "Angad Singh Bains",
+        founder: true,
+        core: false,
+        volunteer: false,
+        designation: "Founder",
+        profile: `A hard-working, ambitious, and competitive student who worked on many projects and events. One of the first members who helped in making the event a great success. He likes to find exotic and astonishing answers to new and difficult challenges He has participated in many online game designing and coding events. Having a keen eye for perfection, he developed many games and Arduino projects. Angad won first prize in movie making and got second prize in the inter-national gaming competition. In his spare time, you will find him either eating food while working on his computer or reading some book. Sometimes he likes to cook and spend time with friends. Currently pursuing a High School Diploma focused in PCM + IP from Delhi Public School, Kolar Road, Bhopal. He wants to become a game designer and developer and wants to play for a professional E-sports team.`,
+        image: "/Angad.jpg",
+        insta: "angad7600123"
+    },
+
+    {
+        name: "Vyomesh Khare",
+        founder: true,
+        core: false,
+        volunteer: false,
+        designation: "Founder",
+        profile: ` Vyomesh, completed high schooling by Mid 2023 in science stream is concurrently preparing for entry into graduate level studies in an engineering institution of respectable stature. With an ever rising reliance on the digital applications including artificial intelligence; he is well entrenched into learning cyber security through upcoming technologies. Extending volunteer services through Cyber Jagriti, he loves cars & concept models, problem solving, helping people of all ages and dissemination of knowledge. A soft spoken, cool thinker & homely, working hard to cast an academic foundation aimed at crafting unique positioning in the professionals world besides playing video games in leisure hours.`,
+        image: "/Vyomesh.jpeg",
+        insta: "vyomeshkhare"
+    },
+
+    {
+        name: "Aadya Singh",
+        founder: true,
+        core: false,
+        volunteer: false,
+        designation: "Founder",
+        profile: `Aadya is known for doing absolutely everything they can get their hands on, this is reflected in their portfolio. They’ve collaborated with multiple youth-run non-profits to spread awareness as well as crowdfunding. They’ve managed the social media page for a local renowned handicraft store. They are a published poet that’s always looking for an excuse to bring it up in a conversation. They are a self starter with the experience of organizing multiple experiences. In their spare time, you can find them snuggled in a corner with their cats reading Donna Tartt or some obscure contemporary poet. A sure way to get them to pay attention to you would be to start a debate on acrylic v. oil paint. They are the most approachable of the bunch(you are encouraged to reach out to them for absolutely anything you need or want). Their love for all things cheesy and sappy overwhelms their work.`,
+        image: "/Aadya.jpg",
+        insta: "peehuspeare"
+    },
+
+    {
         name: "Dhairya Garg",
+        founder: true,
         core: true,
         volunteer: false,
         designation: "Cyber Director of the student council",
@@ -16,6 +61,7 @@ const organizers = [
 
     {
         name: "Aarya Sharma",
+        founder: false,
         core: true,
         volunteer: false,
         designation: "External Co-ordinator",
@@ -26,6 +72,7 @@ const organizers = [
 
     {
         name: 'Advay Singh Yadav',
+        founder: false,
         core: true,
         volunteer: false,
         designation: "Head of the Compering Team, House Captain of Amaltas House",
@@ -36,6 +83,7 @@ const organizers = [
 
     {
         name: "Buddha Dev Das",
+        founder: false,
         core: true,
         volunteer: false,
         designation: "Head of Gaming Events",
@@ -46,6 +94,7 @@ const organizers = [
 
     {
         name: "Varad Sharma",
+        founder: false,
         core: false,
         volunteer: false,
         designation: "Team Leader of the Esprit Decode",
@@ -56,6 +105,7 @@ const organizers = [
 
     {
         name: 'Aarush Shrivastava',
+        founder: false,
         core: false,
         volunteer: false,
         designation: "Team Leader of Scio",
@@ -66,6 +116,7 @@ const organizers = [
 
     {
         name: "Parikshit Raj Karn",
+        founder: false,
         core: false,
         volunteer: false,
         designation: "Team Leader of Site Incroyable",
@@ -76,6 +127,7 @@ const organizers = [
 
     {
         name: "Shounak Verma",
+        founder: false,
         core: false,
         volunteer: false,
         designation: "Team Leader of Technovate, Junior Cyber Director",
@@ -86,6 +138,7 @@ const organizers = [
 
     {
         name: "Divyansh Raj",
+        founder: false,
         core: false,
         volunteer: false,
         designation: "Team Leader of Polémos",
@@ -96,6 +149,7 @@ const organizers = [
 
     {
         name: "Varil Mahere",
+        founder: false,
         core: false,
         volunteer: false,
         designation: "Team Member of Technovate",
@@ -106,6 +160,7 @@ const organizers = [
 
     {
         name: "Vedant Singh Thakur",
+        founder: false,
         core: false,
         volunteer: false,
         designation: "Team Leader of Esthetique Art",
@@ -116,6 +171,7 @@ const organizers = [
 
     {
         name: "Chitransh Agarwal",
+        founder: false,
         core: false,
         volunteer: false,
         designation: "Team Leader of Filmskaping, Lux Captis",
@@ -126,6 +182,7 @@ const organizers = [
 
     {
         name: "Sulakshana Guha",
+        founder: false,
         core: false,
         span2: true,
         volunteer: true,
@@ -153,6 +210,27 @@ const About = () => {
                 DPS Kolar Road has taken an initiative to contribute to this field. Extraquadrata would be our second annual tech meet up hosted by and for high schoolers which will be held on the 5th of December.
                 Our competitions would test the participant’s creativity and logical thinkig to response time and sheer skill for tech savvies and people who crave to be.
             </p>
+            <h3 className="about-header">Founders</h3>
+            <div className='about-organizers'>
+                {organizers.filter(a => a.founder).map((organizer, index) => {
+
+                    return (<div className='about-organizers-each' style={{ gridColumnStart: 'span 2' }} key={index}>
+                        <div className='about-organizers-each-header'>
+
+                            <p className='about-organizers-each-profile'>{organizer.profile}</p>
+                            <div className='about-organizers-each-designation'>
+
+                                <img className='about-organizers-each-image' src={organizer.image} alt={organizer.name + "picture"} />
+                                <div>
+                                    <h4 className='about-organizers-each-name'>{organizer.name}<a className='about-organizers-insta' href={`https://www.instagram.com/${organizer.insta}`}><InstagramIcon /></a></h4>
+                                    <p className='about-organizers-each-profile'>{organizer.designation}</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>)
+                })}
+            </div>
+
             <h3 className="about-header">Core Organizers</h3>
             <div className='about-organizers'>
                 {organizers.filter(a => a.core).map((organizer, index) => {
