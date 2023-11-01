@@ -254,7 +254,7 @@ const About = () => {
 
             <h3 className="about-header">Team Leads</h3>
             <div className='about-organizers-sub about-organizers'>
-                {organizers.filter(a => !a.core && !a.volunteer).map((organizer, index) => {
+                {organizers.filter(a => !a.core && !a.volunteer && !a.founder).map((organizer, index) => {
 
                     return (<div className='about-organizers-each' style={organizer.designation === "Core Organizer" ? { gridColumnStart: 'span 2' } : null} key={index}>
 
