@@ -16,6 +16,17 @@ const organizers = [
     },
 
     {
+        name: "Dhairya Garg",
+        founder: true,
+        core: true,
+        volunteer: false,
+        designation: "Cyber Director of the student council",
+        profile: `Dhairya Garg, an incumbent student in the eleventh grade, distinguishes himself as a discerning, logical, and astute young scholar. His dexterity in solving quizzes seamlessly aligns with his inquisitive and practical approach, earning him the title of a "quiz-zard." Driven by an ardent ambition to excel in the field of Data Science, he exemplifies a tireless work ethic and unwavering dedication to his pursuits. The pursuit of his creative impulses finds expression in his amateur poetry, a testament to his ability to harmoniously weave imaginative expression with structured reasoning. Manifesting a versatile disposition, Dhairya Garg fearlessly ventures into various domains. His unwavering belief in the adage, "Technology, akin to art, represents a soaring exercise of the human imagination," resonates profoundly with his philosophy, underscoring a penchant for balancing the tenets of rationality with an appreciation for the abstract intricacies of our world. In sum, he emerges as a remarkably talented and resolute scholar, poised to chart a dynamic trajectory in his academic journey and beyond.`,
+        image: "/Dhairya.jpg",
+        insta: "dhairyagarg7"
+    },
+
+    {
         name: "Angad Singh Bains",
         founder: true,
         core: false,
@@ -46,17 +57,6 @@ const organizers = [
         profile: `Aadya is known for doing absolutely everything they can get their hands on, this is reflected in their portfolio. They’ve collaborated with multiple youth-run non-profits to spread awareness as well as crowdfunding. They’ve managed the social media page for a local renowned handicraft store. They are a published poet that’s always looking for an excuse to bring it up in a conversation. They are a self starter with the experience of organizing multiple experiences. In their spare time, you can find them snuggled in a corner with their cats reading Donna Tartt or some obscure contemporary poet. A sure way to get them to pay attention to you would be to start a debate on acrylic v. oil paint. They are the most approachable of the bunch(you are encouraged to reach out to them for absolutely anything you need or want). Their love for all things cheesy and sappy overwhelms their work.`,
         image: "/Aadya.jpeg",
         insta: "peehuspeare"
-    },
-
-    {
-        name: "Dhairya Garg",
-        founder: true,
-        core: true,
-        volunteer: false,
-        designation: "Cyber Director of the student council",
-        profile: `Dhairya Garg, an incumbent student in the eleventh grade, distinguishes himself as a discerning, logical, and astute young scholar. His dexterity in solving quizzes seamlessly aligns with his inquisitive and practical approach, earning him the title of a "quiz-zard." Driven by an ardent ambition to excel in the field of Data Science, he exemplifies a tireless work ethic and unwavering dedication to his pursuits. The pursuit of his creative impulses finds expression in his amateur poetry, a testament to his ability to harmoniously weave imaginative expression with structured reasoning. Manifesting a versatile disposition, Dhairya Garg fearlessly ventures into various domains. His unwavering belief in the adage, "Technology, akin to art, represents a soaring exercise of the human imagination," resonates profoundly with his philosophy, underscoring a penchant for balancing the tenets of rationality with an appreciation for the abstract intricacies of our world. In sum, he emerges as a remarkably talented and resolute scholar, poised to chart a dynamic trajectory in his academic journey and beyond.`,
-        image: "/Dhairya.jpg",
-        insta: "dhairyagarg7"
     },
 
     {
