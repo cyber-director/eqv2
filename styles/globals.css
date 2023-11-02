@@ -474,7 +474,7 @@ body {
     padding-bottom: 1rem;
   }
 }
-.container-left-each:nth-child(7) {
+.container-left-each:nth-child(5) {
   grid-column: span 2;
 }
 .container-venue {
