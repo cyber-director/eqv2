@@ -24,8 +24,8 @@ export const contactEmail = async (n, email, message) => {
     .request({
         Messages: [{
             From: {
-                Email: `${email}`,
-                Name: `${n}`,
+                Email: "683@student.dpskolar.org",
+                Name: "Extraquadrata Support",
             },
             To: [{
                 Email: "extraquadrata@gmail.com",
