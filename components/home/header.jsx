@@ -9,7 +9,7 @@ const Header = (props) => {
             <h1>{props.title}</h1>
             <p>{props.description}</p>
             <button className="header-link" onClick={() => {
-                window.scrollTo(0, 950)
+                window.scrollTo(0, 700)
             }}><span>Learn More</span> <ArrowDownwardIcon className='header-link-icon' /></button>
 
         </div>

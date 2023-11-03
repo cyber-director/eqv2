@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="footer-container">
             <div className="footer-container-left">
                 All Rights Reserved
-                <br /> © DPS Kolar Technoclub 2023
+                <br /> © DPS Kolar Headway 2023
             </div>
             <div className="footer-container-right">
                 <div>
