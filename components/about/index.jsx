@@ -165,7 +165,7 @@ const organizers = [
         volunteer: false,
         designation: "Team Leader of Esthetique Art",
         profile: "Vedant Singh is a creative student artist known for his diverse exploration of artistic mediums and his dedication to both art and academics. With a strong focus on visual storytelling, he inspires fellow artists with his collaborative spirit and experimental approach, showing a promising future in both artistic growth and academic excellence.",
-        image: '/Vedant.jpg',
+        image: '/Vedant.jfif',
         insta: 'huyahuyahuhu'
     },
 
