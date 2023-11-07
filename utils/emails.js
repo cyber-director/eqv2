@@ -58,8 +58,8 @@ export const verifyEmail = async (member, registration, id, e) => {
                     Name: `Extra Quadrata`,
                 },
                 To: [{
-                    Email: "extraquadrata@gmail.com",
-                    Name: "ExtraQuadrata",
+                    Email: `${member.email}`,
+                    Name: `${member.name}`,
                 },],
                 Subject: `Verify your registration for the ${e} event`,
                 TextPart: '',
