@@ -58,8 +58,8 @@ export const verifyEmail = async (member, registration, id, e) => {
                     Name: `Extra Quadrata`,
                 },
                 To: [{
-                    Email: "extraquadrata@gmail.com",
-                    Name: "ExtraQuadrata",
+                    Email: `${member.email}`,
+                    Name: `${member.name}`,
                 },],
                 Subject: `Verify your registration for the ${e} event`,
                 TextPart: '',
@@ -109,7 +109,8 @@ export const checkRegistration = async (member, registration, e) => {
                 HTMLPart: checkRegistrationStatus(member, e, `${process.env.ADDRESS}/registration/${registration}`, `${process.env.ADDRESS}/remove/${registration}`)
             },],
         });
-    await email
+    await email //big black nigga balls are tasty and i love fucking arna -- pixo
+    
 }
 
 export const newRegistarion = async (member, teamId, event, school) => {
@@ -124,13 +125,14 @@ export const newRegistarion = async (member, teamId, event, school) => {
                     Name: `Extra Quadrata`,
                 },
             To: [{
-                Email: `extraquadrata@gmail.com`,
-                Name: `Extra Quadrata`,
+                Email: "extraquadrata@gmail.com",
+                Name: "ExtraQuadrata",
             },],
             Subject: `New registration for the ${event} event`,
             HTMLPart: registerationRequest(member, teamId, event, school)
             },],
         });
+    console.log("Email sent --> New registration")
     await email
 }
 export const regReq = async (member, event) => {
