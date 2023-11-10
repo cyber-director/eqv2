@@ -105,6 +105,7 @@ const Admin = () => {
     let photoPerfectaRegistrations = state.registrations.filter(reg => reg.registration.event === "Lux Captis");
     let esthetiqueArtRegisterations = state.registrations.filter(reg => reg.registration.event === "Esthetique Art");
     let minecraftRegisterations = state.registrations.filter(reg => reg.registration.event === "Polemos");
+    let technovateRegisterations = state.registrations.filter(reg => reg.registration.event === "Technovate");
     let espritEmails = (state.registrations.filter(a => a.registration.event === "Esprit Decode").map(a => {
         return a.team.members.map(b => {
             return b.email.toLowerCase();
@@ -142,6 +143,11 @@ const Admin = () => {
         }).join(", ")
     })).join(", ");
     let minecraftEmails = (state.registrations.filter(a => a.registration.event === "Minecraft").map(a => {
+        return a.team.members.map(b => {
+            return b.email.toLowerCase();
+        }).join(", ")
+    })).join(", ");
+    let technovateEmails = (state.registrations.filter(a => a.registration.event === "Technovate").map(a => {
         return a.team.members.map(b => {
             return b.email.toLowerCase();
         }).join(", ")
@@ -242,6 +248,17 @@ const Admin = () => {
 
                 <p>Participant Emails</p>
                 <p className='admin-emails'>{minecraftEmails}</p>
+            </div>
+            <div className='admin-container-inner-each'>
+                <h2>Technovate Registrations: {technovateRegisterations.length}</h2>
+                <div className='admin-registrations'>
+                    {technovateRegisterations.map((reg, index) => {
+                        return <Registration teamName={reg.team.name} schoolName={reg.team.school} members={reg.team.members} key={index} />
+                    })}
+                </div>
+
+                <p>Participant Emails</p>
+                <p className='admin-emails'>{technovateEmails}</p>
             </div>
         </div>
     </div>
