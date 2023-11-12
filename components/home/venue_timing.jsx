@@ -2,9 +2,7 @@
 import Brochure from './brochure'
 const Venue = () => {
     
-    let m = { "Offline events will be held on": "Tuesday, 5th December, 2023", "Online events will start on": "Sunday, 19th November, 2023", "Online and Hybrid Event Results will be declared on": "Friday, 1st December, 2023", "The registrations for all events open til": "Monday, 20th November, 2023", "Offline Event Results will be declared on": "Tuesday, 5th December, 2023", "Number of online, offline and hybrid events" : "9 - 4 Offline, 3 Hybrid, 2 Online" };
-
-    // "The monetary prizes that will be awarded across all 9 events will be": "In Cash"
+    let m = { "Offline events will be held on": "Tuesday, 5th December, 2023", "Online events will start on": "Sunday, 19th November, 2023", "Online and Hybrid Event Results will be declared on": "Friday, 1st December, 2023", "The registrations for all events open til": "Monday, 20th November, 2023", "Offline Event Results will be declared on": "Tuesday, 5th December, 2023", "Number of online, offline and hybrid events" : "9 - 4 Offline, 3 Hybrid, 2 Online" ,"The monetary prizes that will be awarded across all 9 events will be": "Over Rupees 12000 in Cash"};
     let keys = Object.keys(m);
     return (
         <div className="container">
