@@ -1,6 +1,6 @@
 import admins from '../../../models/admins';
 import connect from '../../../utils/mongoDBConnector';
-import Registration from '../../../models/registration'; 
+import Registration from '../../../models/registration';
 import Team from '../../../models/team';
 import Member from '../../../models/member';
 var bcrypt = require('bcryptjs');
@@ -34,11 +34,12 @@ const handler = async (req, res) => {
                     for(let j = 0; j < team.members.length; j++){
                         let member = await Member.findById(team.members[j]);
                         members.push(member);
+                        console.log(members);
                     }
                     registrations.push({
                         team:{
-                            name:team.name, 
-                            school:team.school, 
+                            name:team.name,
+                            school:team.school,
                             members
                         },
                         registration:Registrations[i]

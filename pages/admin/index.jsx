@@ -131,7 +131,7 @@ const Admin = () => {
             return b.email.toLowerCase();
         }).join(", ")
     })).join(", ");
-    let PhotoPerfectaEmails = (state.registrations.filter(a => a.registration.event === "Photo Perfecta").map(a => {
+    let PhotoPerfectaEmails = (state.registrations.filter(a => a.registration.event === "Lux Captis").map(a => {
         return a.team.members.map(b => {
             return b.email.toLowerCase();
         }).join(", ")
