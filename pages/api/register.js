@@ -63,6 +63,7 @@ const Handler = async (req, res) => {
                 await checkRegistration(member, registration._id, event);
                 await newRegistarion(member, registration.team, event, team.school);
             }
+            console.log(team + "\n" + registration);
 
             return res.status(200).json({ message: "Team registered" });
         }
