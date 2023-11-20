@@ -1453,6 +1453,15 @@ body {
 .admin-container-inner-each:nth-child(6) {
   background-image: linear-gradient(to bottom right, #1192B9, #C8CE07);
 }
+.admin-container-inner-each:nth-child(7) {
+  background-image: linear-gradient(to bottom right, #5f11b9, #ce0707);
+}
+.admin-container-inner-each:nth-child(8) {
+  background-image: linear-gradient(to bottom right, #6eddff, #2507ce);
+}
+.admin-container-inner-each:nth-child(9) {
+  background-image: linear-gradient(to bottom right, #11b97b, #077bce);
+}
 @media (max-width: 1500px) {
   .admin-container-inner {
     grid-template-columns: 1fr 1fr;
