@@ -4,7 +4,7 @@ import emailValidator from '../../utils/emailValidator';
 import listOfSchools from '../../utils/listOfSchools';
 import register from '../../utils/register';
 const Register = () => {
-    /*const [state, setState] = React.useState({
+    const [state, setState] = React.useState({
         event: "Parabellum",
         school: "",
         members: [
@@ -41,7 +41,7 @@ const Register = () => {
         teamName: "",
         other: false,
         submitted: false
-    });*/
+    });
     
     const [error, setError] = React.useState("");
     const [success, setSuccess] = React.useState("");
