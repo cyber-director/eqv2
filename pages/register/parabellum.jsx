@@ -3,8 +3,8 @@ import React from 'react';
 import emailValidator from '../../utils/emailValidator';
 import listOfSchools from '../../utils/listOfSchools';
 import register from '../../utils/register';
-const Register = () => {/*
-    const [state, setState] = React.useState({
+const Register = () => {
+    /*const [state, setState] = React.useState({
         event: "Parabellum",
         school: "",
         members: [
@@ -55,7 +55,7 @@ const Register = () => {/*
                 {/* <video src='/cover.mp4' autoPlay={true} loop={true} muted={true} className="register-header-video" /> */}
             </div>
             <div className="register-body">
-            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScRJnu_fD9CP4HpQHrp5K_5mrgla0ND8yJvIZOiXvFkyxmTzw/viewform?embedded=true" width="640" height="2309" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScRJnu_fD9CP4HpQHrp5K_5mrgla0ND8yJvIZOiXvFkyxmTzw/viewform?embedded=true" width="640" height="2309" frameBorder="0" marginHeight="0" marginWidth="0">Loading…</iframe>
                 {/* <form className="register-form" onSubmit={async (e) => {
                     e.preventDefault();
                     let i = 0;

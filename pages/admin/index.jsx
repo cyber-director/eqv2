@@ -126,7 +126,6 @@ const Admin = () => {
             return b.email.toLowerCase();
         }).join(", ")
     })).join(", ");
-    // TODO nigga this work?
     let parabellumEmails = (state.registrations.filter(a => a.registration.event === "Parabellum" && a.team.name !=="Mitochondria").map(a => {
         return a.team.members.map(b => {
             return b.email.toLowerCase();

@@ -109,8 +109,7 @@ export const checkRegistration = async (member, registration, e) => {
                 HTMLPart: checkRegistrationStatus(member, e, `${process.env.ADDRESS}/registration/${registration}`, `${process.env.ADDRESS}/remove/${registration}`)
             },],
         });
-    await email //big black nigga balls are tasty and i love fucking arna -- pixo
-    
+    await email     
 }
 
 export const newRegistarion = async (member, teamId, event, school) => {
@@ -132,8 +131,8 @@ export const newRegistarion = async (member, teamId, event, school) => {
             HTMLPart: registerationRequest(member, teamId, event, school)
             },],
         });
-    console.log("Email sent --> New registration")
     await email
+    console.log("Email sent --> New registration")
 }
 export const regReq = async (member, event) => {
         const email = mailJet
