@@ -3,7 +3,7 @@ import React from 'react';
 import emailValidator from '../../utils/emailValidator';
 import listOfSchools from '../../utils/listOfSchools';
 import register from '../../utils/register';
-const Register = () => {
+const Register = () => {/*
     const [state, setState] = React.useState({
         event: "Parabellum",
         school: "",
@@ -41,7 +41,8 @@ const Register = () => {
         teamName: "",
         other: false,
         submitted: false
-    });
+    });*/
+    
     const [error, setError] = React.useState("");
     const [success, setSuccess] = React.useState("");
     const [dropdown, setDropdown] = React.useState(false);
@@ -54,7 +55,8 @@ const Register = () => {
                 {/* <video src='/cover.mp4' autoPlay={true} loop={true} muted={true} className="register-header-video" /> */}
             </div>
             <div className="register-body">
-                <form className="register-form" onSubmit={async (e) => {
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScRJnu_fD9CP4HpQHrp5K_5mrgla0ND8yJvIZOiXvFkyxmTzw/viewform?embedded=true" width="640" height="2309" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+                {/* <form className="register-form" onSubmit={async (e) => {
                     e.preventDefault();
                     let i = 0;
                     while(i < state.members.length){
@@ -148,7 +150,7 @@ const Register = () => {
                     <button className="register-button">Register</button>
                 </form>
                 <p>{error}</p>
-                <p>{success}</p>
+                <p>{success}</p> */}
                 
                 {/* <h1 style={{fontSize:"3rem"}}>Registrations for the Parabellum Event have been closed</h1> */}
             </div>
